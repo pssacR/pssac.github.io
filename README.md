@@ -45,9 +45,7 @@
 
 - [ ] **Bloque 1: Nav Bar**
 
-  - Implementar el espacio con el logo de la empresa.
-  - Crear enlaces de navegación para acceder a diferentes secciones del sitio.
-  - Integrar íconos de acceso a redes sociales (Facebook e Instagram).
+  - Incluir el Nav Bar con enlaces de navegación y acceso a redes sociales.
 
 - [ ] **Bloque 2: Descripción del Servicio**
 
@@ -55,36 +53,30 @@
   - Incluir imágenes y especificaciones para cada servicio.
   - Proporcionar información clara para que los usuarios comprendan los servicios disponibles.
 
-- [ ] **Bloque 3: Testimonios de Clientes**
-
-  - Estructurar los testimonios y las imágenes de los clientes utilizando etiquetas HTML semánticas.
-  - Aplicar estilos con CSS para mejorar la presentación visual de los testimonios.
-  - Asegurar que los testimonios sean responsive y se destaquen las palabras clave para resaltar los aspectos positivos de la experiencia del cliente.
-
-- [ ] **Bloque 4: Carrusel con Mascotas Siendo Atendidas**
+- [ ] **Bloque 3: Carrusel con Mascotas Siendo Atendidas**
 
   - Desarrollar un carrusel de imágenes con mascotas siendo atendidas.
   - Implementar efecto visual donde la imagen principal se agrande y las demás se desenfoquen al seleccionar una imagen.
   - Utilizar JavaScript sin bibliotecas externas para controlar la lógica del carrusel y aplicar estilos con CSS.
 
+- [ ] **Bloque 4: Precios y promociones + Invitacion a turnos**
+
+  -
+  -
+  -
+
 - [ ] **Bloque 5: Footer**
-  - Desarrollar la estructura y estilos del footer.
-  - Incluir información de derechos de autor, contacto y redes sociales.
+  - Incluir el footer con información de derechos de autor, contacto y redes sociales.
 
 ## Página 3: Formulario de Contacto
 
-- [ ] **Bloque 1: Nav Bar**
-
-  - Implementar el espacio con el logo de la empresa.
-  - Crear enlaces de navegación para acceder a diferentes secciones del sitio.
-  - Integrar íconos de acceso a redes sociales (Facebook e Instagram).
+- Incluir el Nav Bar con enlaces de navegación y acceso a redes sociales.
 
 - [ ] **Bloque 2: Formulario de Contacto**
 
   - Diseñar un formulario de contacto simple para que los usuarios puedan comunicarse con la empresa.
   - Incluir campos para nombre, correo electrónico, mensaje y opción para seleccionar un profesional específico.
-  - Integrar una lista desplegable para que los usuarios elijan un profesional de una lista de rubros.
+  - Integrar una lista desplegable para que los usuarios elijan un profesional de una lista de rubros, estilista, etc o un administrador, area facturacion, area gerencia, etc
 
 - [ ] **Bloque 3: Footer**
-  - Desarrollar la estructura y estilos del footer.
-  - Incluir información de derechos de autor, contacto y redes sociales.
+  - Incluir el footer con información de derechos de autor, contacto y redes sociales.
