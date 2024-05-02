@@ -71,7 +71,11 @@
 
 ### Página 2: Servicio - Corte de Uñas
 
-#### Bloque 1: Detalles del Servicio
+#### Bloque 1: Nav Bar
+
+- [ ] Implementar mismo Nav Bar que en la página 1.
+
+#### Bloque 2: Detalles del Servicio
 
 - [ ] **Descripción del Servicio:**
   - [ ] Especificar los detalles del servicio de corte de uñas para clientes humanos.
@@ -79,7 +83,7 @@
   - [ ] Detallar las técnicas y procedimientos utilizados en el servicio.
   - [ ] Incluir información sobre la experiencia del cliente durante el servicio.
 
-#### Bloque 2: Precios y Promociones
+#### Bloque 3: Precios y Promociones
 
 - [ ] **Lista de Precios:**
   - [ ] Enumerar los precios del servicio de corte de uñas para diferentes categorías.
@@ -87,31 +91,35 @@
   - [ ] Describir cualquier promoción especial relacionada con el servicio de corte de uñas.
   - [ ] Incluir detalles sobre cómo los clientes pueden aprovechar estas promociones.
 
-#### Bloque 3: Galería de Imágenes
+#### Bloque 4: Galería de Imágenes
 
 - [ ] **Selección de Imágenes:**
   - [ ] Seleccionar imágenes relevantes que muestren el proceso de corte de uñas.
   - [ ] Asegurar que las imágenes sean de alta calidad y representen fielmente el servicio.
 
-#### Bloque 4: Testimonios de Clientes
+#### Bloque 5: Testimonios de Clientes
 
 - [ ] **Recopilación de Testimonios:**
   - [ ] Obtener testimonios de clientes satisfechos con el servicio de corte de uñas.
   - [ ] Incluir testimonios breves que destaquen la experiencia positiva del cliente.
 
-#### Bloque 5: Reservas y Citas
+#### Bloque 6: Reservas y Citas
 
 - [ ] **Sistema de Reservas:**
   - [ ] Implementar un sistema de reservas en línea para el servicio de corte de uñas.
   - [ ] Asegurar que los clientes puedan seleccionar horarios disponibles y confirmar citas fácilmente.
 
-#### Bloque 6: Información Adicional
+#### Bloque 7: Información Adicional
 
 - [ ] **Cuidados Posteriores:**
   - [ ] Proporcionar información sobre los cuidados posteriores recomendados después del servicio de corte de uñas.
 - [ ] **Preguntas Frecuentes:**
   - [ ] Incluir respuestas a preguntas frecuentes relacionadas con el servicio de corte de uñas.
   - [ ] Asegurar que los clientes tengan toda la información necesaria antes de reservar una cita.
+
+#### Bloque 8: Footer
+
+- [ ] Implementar mismo Footer que en la página 1.
 
 ### Página 3: Formulario de Contacto
 
