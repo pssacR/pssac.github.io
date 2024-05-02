@@ -1,74 +1,90 @@
-# Proyecto de Desarrollo de Sitio Web para Peluquería Canina
+# Checklist de Desarrollo del Sitio Web para Peluquería Canina
 
 ## Página 1: Inicio
 
-### Bloque 1: Nav Bar
+- [ ] **Bloque 1: Nav Bar**
 
-El bloque de navegación (Nav Bar) es una parte esencial de la estructura del sitio web, ya que proporciona una navegación intuitiva y rápida para los usuarios. Se compone de tres elementos principales:
+  - Implementar el espacio con el logo de la empresa.
+  - Crear enlaces de navegación para acceder a diferentes secciones del sitio.
+  - Integrar íconos de acceso a redes sociales (Facebook e Instagram).
 
-1. **Espacio con Logo de la Empresa:**
+- [ ] **Bloque 2: Imágenes con Servicios del Lugar**
 
-   - Se incluye el logo de la empresa para reforzar la identidad visual de la marca.
-   - Se implementa mediante la etiqueta `<img src="ruta_del_logo">`.
+  - Desarrollar el bloque de imágenes para representar los servicios ofrecidos.
+  - Implementar efecto de rotación al pasar el mouse sobre las imágenes.
+  - Ejemplificar varios servicios ofrecidos por la peluquería canina.
 
-2. **Links para Navegar la Página:**
+- [ ] **Bloque 3: Promociones y Precios**
 
-   - Se agrupan los enlaces que permiten a los usuarios acceder a diferentes secciones del sitio.
-   - Se utiliza la etiqueta `<div class="navbar-links">` para estructurar estos enlaces de manera organizada.
+  - Detallar las promociones disponibles y los precios de los servicios.
+  - Enumerar las promociones y servicios utilizando listas y tablas.
+  - Proporcionar instrucciones claras para aprovechar las promociones y reservar citas.
 
-3. **Items de Acceso a Redes Sociales:**
+- [ ] **Bloque 4: Carrusel con Mascotas Siendo Atendidas**
 
-   - Se añaden íconos o enlaces a las redes sociales de la peluquería canina para facilitar la interacción con los clientes.
+  - Desarrollar un carrusel de imágenes con mascotas siendo atendidas.
+  - Implementar efecto visual donde la imagen principal se agrande y las demás se desenfoquen al seleccionar una imagen.
+  - Utilizar JavaScript sin bibliotecas externas para controlar la lógica del carrusel y aplicar estilos con CSS.
 
-     - Facebook
-     - Instagram
+- [ ] **Bloque 5: Testimonios de Clientes - Implementación en el Sitio**
 
-   - Se implementa mediante la etiqueta `<div class="navbar-social">`.
+  - Estructurar los testimonios y las imágenes de los clientes utilizando etiquetas HTML semánticas.
+  - Aplicar estilos con CSS para mejorar la presentación visual de los testimonios.
+  - Asegurar que los testimonios sean responsive y se destaquen las palabras clave para resaltar los aspectos positivos de la experiencia del cliente.
 
-4. **Consideraciones Adicionales:**
-   - mantener el Nav Bar visible en todas las páginas del sitio para garantizar una navegación consistente.
-   - enlaces descriptivos y fácilmente comprensibles para los usuarios.
-   - implementar un diseño responsivo para que el Nav Bar se adapte a diferentes dispositivos y tamaños de pantalla.
+- [ ] **Bloque 6: Zona de Turnos y Patrocinadores**
 
-Este bloque se diseña para maximizar la usabilidad y la accesibilidad del sitio web, permitiendo a los usuarios encontrar rápidamente la información que buscan y promoviendo la interacción con la marca a través de las redes sociales.
+  - Zona de Turnos: Desarrollar la sección para mostrar la disponibilidad de turnos y permitir reservas.
+  - Patrocinadores: Crear una sección para mostrar los logos de los patrocinadores con efecto de rotación intermitente.
 
----
+- [ ] **Bloque 7: Footer**
+  - Desarrollar la estructura y estilos del footer.
+  - Incluir información de derechos de autor, contacto y redes sociales.
 
-### Bloque 2: Imágenes con Servicios del Lugar
+## Página 2: Servicio 5
 
-En este bloque, se presentan imágenes que representan los distintos servicios ofrecidos por la peluquería canina. Cuando el usuario posa el mouse sobre una imagen, esta se rotará y mostrará las especificaciones básicas del servicio, brindando así una vista detallada de cada opción disponible.
+- [ ] **Bloque 1: Nav Bar**
 
-Ejemplo de servicios que puede ofrecer una peluquería canina:
+  - Implementar el espacio con el logo de la empresa.
+  - Crear enlaces de navegación para acceder a diferentes secciones del sitio.
+  - Integrar íconos de acceso a redes sociales (Facebook e Instagram).
 
-1. **Corte de Pelo y Baño:**
+- [ ] **Bloque 2: Descripción del Servicio**
 
-   - Especificaciones: Incluye baño, corte de pelo según estándares de la raza, limpieza de oídos y corte de uñas si es necesario.
+  - Detallar los servicios ofrecidos en la página de servicio 5.
+  - Incluir imágenes y especificaciones para cada servicio.
+  - Proporcionar información clara para que los usuarios comprendan los servicios disponibles.
 
-2. **Deslanado y Desenredado:**
+- [ ] **Bloque 3: Testimonios de Clientes**
 
-   - Especificaciones: Ideal para razas con pelaje largo o propenso a enredarse. Incluye desenredado y eliminación de pelo muerto.
+  - Estructurar los testimonios y las imágenes de los clientes utilizando etiquetas HTML semánticas.
+  - Aplicar estilos con CSS para mejorar la presentación visual de los testimonios.
+  - Asegurar que los testimonios sean responsive y se destaquen las palabras clave para resaltar los aspectos positivos de la experiencia del cliente.
 
-3. **Baño de Belleza y Acondicionamiento:**
+- [ ] **Bloque 4: Carrusel con Mascotas Siendo Atendidas**
 
-   - Especificaciones: Baño con productos específicos para cada tipo de pelaje, seguido de acondicionamiento para un pelaje suave y brillante.
+  - Desarrollar un carrusel de imágenes con mascotas siendo atendidas.
+  - Implementar efecto visual donde la imagen principal se agrande y las demás se desenfoquen al seleccionar una imagen.
+  - Utilizar JavaScript sin bibliotecas externas para controlar la lógica del carrusel y aplicar estilos con CSS.
 
-4. **Corte de Uñas y Limpieza Dental:**
+- [ ] **Bloque 5: Footer**
+  - Desarrollar la estructura y estilos del footer.
+  - Incluir información de derechos de autor, contacto y redes sociales.
 
-   - Especificaciones: Corte de uñas para evitar problemas de crecimiento excesivo, y limpieza dental para mantener una buena salud bucal.
+## Página 3: Formulario de Contacto
 
-5. **Tratamientos de Spa para Mascotas:**
-   - Especificaciones: Masajes relajantes, tratamientos de hidratación para la piel y aromaterapia para calmar a las mascotas.
+- [ ] **Bloque 1: Nav Bar**
 
-#### Lineamientos de Implementación del Carrusel de Imágenes y Efecto de Rotación
+  - Implementar el espacio con el logo de la empresa.
+  - Crear enlaces de navegación para acceder a diferentes secciones del sitio.
+  - Integrar íconos de acceso a redes sociales (Facebook e Instagram).
 
-Para implementar el carrusel de imágenes y el efecto de rotación manualmente, se sugieren los siguientes pasos:
+- [ ] **Bloque 2: Formulario de Contacto**
 
-1. **Carrusel de Imágenes:**
+  - Diseñar un formulario de contacto simple para que los usuarios puedan comunicarse con la empresa.
+  - Incluir campos para nombre, correo electrónico, mensaje y opción para seleccionar un profesional específico.
+  - Integrar una lista desplegable para que los usuarios elijan un profesional de una lista de rubros.
 
-   - **HTML:** Definir la estructura del carrusel utilizando la etiqueta `<div>` con la clase `carousel` y sus elementos internos `<div>` con la clase `carousel-inner` para contener las imágenes individuales.
-   - **CSS:** Estilizar el carrusel de imágenes utilizando CSS para garantizar una presentación adecuada y coherente en el sitio web.
-   - **JavaScript:** Implementar la lógica del carrusel utilizando JavaScript para permitir la navegación entre las imágenes al hacer clic en los botones de anterior y siguiente.
-
-2. **Efecto de Rotación al Pasar el Ratón:**
-   - **HTML/CSS:** Definir un estilo básico para las imágenes que forman parte del carrusel, asegurándose de que tengan un tamaño adecuado y un efecto de transición suave.
-   - **JavaScript:** Agregar eventos de ratón para el efecto de rotación al pasar el ratón sobre las imágenes, utilizando JavaScript para cambiar la transformación de la imagen y lograr el efecto deseado.
+- [ ] **Bloque 3: Footer**
+  - Desarrollar la estructura y estilos del footer.
+  - Incluir información de derechos de autor, contacto y redes sociales.
