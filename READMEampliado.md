@@ -1,4 +1,4 @@
-# Proyecto de Desarrollo de Sitio Web para Peluquería Canina
+# Proyecto de Desarrollo de Sitio Web para Peluquería Maktub
 
 ## Página 1: Inicio
 
@@ -36,9 +36,9 @@ Este bloque se diseña para maximizar la usabilidad y la accesibilidad del sitio
 
 ### Bloque 2: Imágenes con Servicios del Lugar
 
-En este bloque, se presentan imágenes que representan los distintos servicios ofrecidos por la peluquería canina. Cuando el usuario posa el mouse sobre una imagen, esta se rotará y mostrará las especificaciones básicas del servicio, brindando así una vista detallada de cada opción disponible.
+En este bloque, se presentan imágenes que representan los distintos servicios ofrecidos por la peluquería Maktub. Cuando el usuario posa el mouse sobre una imagen, esta se rotará y mostrará las especificaciones básicas del servicio, brindando así una vista detallada de cada opción disponible.
 
-Ejemplo de servicios que puede ofrecer una peluquería canina:
+Ejemplo de servicios que puede ofrecer la peluquería Maktub:
 
 1. **Corte de Pelo y Baño:**
 
@@ -77,7 +77,7 @@ Para implementar el carrusel de imágenes y el efecto de rotación manualmente, 
 
 ### Bloque 3: Promociones y Precios
 
-En esta sección, se detallan las promociones y los precios de los servicios ofrecidos por la peluquería canina. Para su implementación, se sugieren las siguientes directrices:
+En esta sección, se detallan las promociones y los precios de los servicios ofrecidos por la peluquería Maktub. Para su implementación, se sugieren las siguientes directrices:
 
 1. **Lista de Promociones y Servicios:**
 
@@ -89,7 +89,7 @@ En esta sección, se detallan las promociones y los precios de los servicios ofr
      - **Promoción de Verano:**
        Oferta especial que incluye corte de pelo, baño con productos premium y tratamiento de spa para refrescar a tu mascota en los días calurosos.
      - **Descuento por Referidos:**
-       Obtén un descuento del 10% en tu próximo servicio por cada amigo que refieras a nuestra peluquería canina.
+       Obtén un descuento del 10% en tu próximo servicio por cada amigo que refieras a nuestra peluquería Maktub.
 
 2. **Precios de los Servicios:**
 
@@ -107,13 +107,13 @@ En esta sección, se detallan las promociones y los precios de los servicios ofr
 
    - Proporciona instrucciones claras sobre cómo los clientes pueden aprovechar las promociones y reservar sus citas.
    - Incluye detalles de contacto, como números de teléfono o direcciones de correo electrónico, para que los clientes puedan comunicarse fácilmente.
-   - Considera agregar un llamado a la acción al final de la sección para animar a los usuarios a reservar sus citas o ponerse en contacto con la peluquería canina.
+   - Considera agregar un llamado a la acción al final de la sección para animar a los usuarios a reservar sus citas o ponerse en contacto con la peluquería Maktub.
 
 ---
 
 ### Bloque 4: Carrusel con Mascotas Siendo Atendidas
 
-En esta sección se presenta un carrusel de imágenes que muestra mascotas siendo atendidas en la peluquería canina. La diferencia principal con el carrusel anterior radica en el efecto visual aplicado cuando se selecciona una imagen principal: esta se agrandará mientras que las demás se desenfocarán para resaltar la imagen seleccionada. Para su implementación, se sugiere seguir las siguientes directrices:
+En esta sección se presenta un carrusel de imágenes que muestra mascotas siendo atendidas en la peluquería Maktub. La diferencia principal con el carrusel anterior radica en el efecto visual aplicado cuando se selecciona una imagen principal: esta se agrandará mientras que las demás se desenfocarán para resaltar la imagen seleccionada. Para su implementación, se sugiere seguir las siguientes directrices:
 
 1. **Uso de JavaScript sin Bibliotecas:**
 
@@ -183,7 +183,7 @@ Para implementar los testimonios de clientes en el sitio, sigue estos pasos:
    - Utiliza una paleta de colores atractiva y coherente para transmitir una sensación de confianza y profesionalismo.
    - Asegúrate de que los testimonios sean fáciles de leer y estén claramente etiquetados para que los visitantes del sitio puedan identificar rápidamente la opinión de otros clientes.
 
-Al implementar este bloque, busca crear una sección que transmita confianza y credibilidad a los visitantes del sitio, mostrando testimonios auténticos de clientes satisfechos. Esto puede ayudar a convertir a los visitantes en clientes potenciales al proporcionar evidencia social de la calidad de los servicios ofrecidos por la peluquería canina.
+Al implementar este bloque, busca crear una sección que transmita confianza y credibilidad a los visitantes del sitio, mostrando testimonios auténticos de clientes satisfechos. Esto puede ayudar a convertir a los visitantes en clientes potenciales al proporcionar evidencia social de la calidad de los servicios ofrecidos por la peluquería Maktub.
 
 ### Bloque 6: Zona de Turnos y Patrocinadores
 
@@ -204,98 +204,106 @@ Este bloque se divide en dos partes verticales:
 
 Para implementar la zona de turnos, considera utilizar tecnologías como FullCalendar (para calendarios interactivos), junto con un backend para gestionar las reservas. Para la sección de patrocinadores, puedes utilizar JavaScript para controlar la rotación de los logos y CSS para darles estilo. Además, asegúrate de que ambos espacios sean responsive y se vean bien en diferentes dispositivos.
 
-Al diseñar esta sección, busca una presentación clara y atractiva que permita a los usuarios reservar turnos fácilmente y también muestre de manera efectiva los logos de los patrocinadores. Esto ayudará a promover la marca y mejorar la experiencia del usuario en el sitio web de la peluquería canina.
+Al diseñar esta sección, busca una presentación clara y atractiva que facilite a los usuarios la reserva de turnos y que muestre los patrocinadores de manera efectiva, generando confianza en la marca de la peluquería Maktub.
 
-### Bloque 7: Footer
+## Página 2: Servicios Adicionales
 
-En este bloque se incluye el footer del sitio web, que proporciona información adicional y enlaces importantes para los usuarios. El footer se divide en varias secciones:
+### Bloque 1: Servicios Adicionales y Detalles
 
-1. **Información de Derechos de Autor:**
+1. **Servicio de Transporte de Mascotas:**
 
-   - Incluye un mensaje que indique los derechos de autor del sitio web, como "© [Año] Peluquería Canina [Nombre de la Empresa]".
-   - Asegúrate de cumplir con las leyes de derechos de autor y proporcionar la información legal necesaria.
+   - Descripción: Ofrecemos un servicio de transporte para mascotas que incluye recogida y entrega a domicilio. Ideal para aquellos clientes que tienen dificultades para traer a sus mascotas a la peluquería.
+   - Tarifa: $10 por trayecto dentro de un radio de 10 km.
 
-2. **Información de Contacto:**
+2. **Entrenamiento y Socialización:**
 
-   - Proporciona detalles de contacto de la peluquería canina, como dirección física, número de teléfono y dirección de correo electrónico.
-   - Facilita a los usuarios la comunicación con la empresa para consultas, reservas o cualquier otro propósito.
+   - Descripción: Contamos con un programa de entrenamiento y socialización para perros que incluye actividades de aprendizaje, juegos y interacción con otros perros bajo la supervisión de entrenadores profesionales.
+   - Tarifa: $20 por sesión de una hora.
 
-3. **Redes Sociales:**
+3. **Venta de Productos para Mascotas:**
 
-   - Vuelve a incluir imágenes de las redes sociales, como Facebook e Instagram, para que los usuarios puedan acceder fácilmente a los perfiles sociales de la peluquería canina.
-   - Agrega enlaces a los perfiles sociales correspondientes para que los usuarios puedan seguir y conectarse con la empresa en las redes sociales.
+   - Descripción: Disponemos de una variedad de productos para el cuidado y la higiene de mascotas, incluyendo champús, cepillos, juguetes y accesorios para el hogar.
+   - Precios: Varían según el producto.
 
-4. **Diseño y Presentación:**
+4. **Servicio de Cuidado Temporal:**
 
-   - Diseña el footer de manera clara y ordenada, con una distribución equilibrada de las diferentes secciones.
-   - Utiliza colores y estilos que se alineen con el diseño general del sitio web para mantener la coherencia visual.
+   - Descripción: Ofrecemos un servicio de cuidado temporal para mascotas que incluye alojamiento, alimentación y cuidados básicos mientras los dueños están ausentes.
+   - Tarifa: $30 por día para perros y $20 por día para gatos.
 
-5. **Implementación Técnica:**
-   - Utiliza HTML para estructurar el footer y dividirlo en las diferentes secciones mencionadas.
-   - Emplea CSS para estilizar el footer y asegurarte de que tenga una apariencia atractiva y profesional.
-   - Añade enlaces funcionales y asegúrate de que las imágenes de las redes sociales estén vinculadas a los perfiles correspondientes.
+### Bloque 2: Galería de Imágenes de Servicios Adicionales
 
-Al implementar el footer, asegúrate de que sea accesible desde todas las páginas del sitio web y proporcione información útil y relevante para los usuarios. Esto ayudará a mejorar la experiencia general del usuario y a proporcionar una presentación completa y profesional del sitio web de la peluquería canina.
+Este bloque presenta una galería de imágenes que muestran los servicios adicionales ofrecidos por la peluquería Maktub, como el transporte de mascotas, el entrenamiento y la socialización, la venta de productos para mascotas y el cuidado temporal. Las imágenes se organizan en una cuadrícula para una fácil visualización y pueden hacer clic para ver una versión ampliada.
 
----
+Para implementar esta galería de imágenes, sigue estos pasos:
 
----
+1. **Estructura HTML:**
 
-### Página 2: Servicio 5 - Masajes para Mascotas
+   - Utiliza etiquetas HTML semánticas para organizar las imágenes en una cuadrícula.
+   - Utiliza la etiqueta `<img>` para incrustar las imágenes en la página, especificando la ruta de la imagen en el atributo `src` y una breve descripción en el atributo `alt`.
 
-#### Bloque 1: Nav Bar
+2. **Estilo CSS:**
 
-`
+   - Estiliza la galería de imágenes utilizando CSS para garantizar una presentación visual atractiva y coherente.
+   - Define clases CSS para aplicar estilos específicos a las imágenes y a la cuadrícula en la que están organizadas.
+   - Utiliza CSS para controlar el tamaño y la disposición de las imágenes en la cuadrícula, así como los efectos de transición al hacer clic en una imagen.
 
-# Nav Bar (Repetido de la página anterior)
+3. **Funcionalidad JavaScript:**
 
-## Encabezado
+   - Implementa JavaScript para proporcionar funcionalidades adicionales a la galería de imágenes, como la visualización en pantalla completa al hacer clic en una imagen.
+   - Utiliza JavaScript para controlar eventos como el clic del mouse y la navegación entre las imágenes en la versión ampliada.
+   - Considera agregar efectos de animación al abrir y cerrar la versión ampliada de la imagen para mejorar la experiencia del usuario.
 
-- Presenta el nombre del servicio y una breve descripción para captar la atención del usuario.
-- Destaca los aspectos únicos o destacados de este servicio en particular.
+Al diseñar esta galería de imágenes, busca una presentación atractiva y fácil de usar que muestre claramente los servicios adicionales ofrecidos por la peluquería Maktub. Asegúrate de que las imágenes estén organizadas de manera coherente y que los usuarios puedan acceder fácilmente a una versión ampliada de cada imagen para obtener más detalles sobre los servicios.
 
-## Detalles del Servicio
+## Página 3: Contacto
 
-- Proporciona una descripción detallada del servicio, incluyendo los procedimientos, técnicas y productos utilizados.
-- Destaca los beneficios y resultados que los clientes pueden esperar al utilizar este servicio.
+### Bloque 1: Formulario de Contacto
 
-## Galería de Imágenes
+En esta sección se presenta un formulario de contacto que permite a los usuarios enviar consultas o comentarios a la peluquería Maktub. El formulario incluye campos para el nombre, el correo electrónico, el número de teléfono y el mensaje del usuario, así como un botón de envío para enviar el formulario.
 
-- Muestra imágenes relevantes del servicio en acción, como mascotas disfrutando de masajes relajantes.
-- Asegúrate de seleccionar imágenes de alta calidad que destaquen la experiencia de recibir este servicio.
+Para implementar este formulario de contacto, sigue estos pasos:
 
-## Precios y Promociones
+1. **HTML:**
 
-- Enumera los precios del servicio de masajes para mascotas y cualquier promoción disponible.
-- Proporciona información clara sobre cómo los clientes pueden aprovechar estas ofertas especiales.
+   - Utiliza etiquetas HTML como `<form>`, `<input>`, `<textarea>` y `<button>` para construir el formulario de contacto.
+   - Define atributos como `name`, `type` y `placeholder` para los elementos del formulario, asegurándote de que la estructura sea semánticamente correcta.
 
-## Call to Action
+2. **Estilo CSS:**
 
-- Invita a los usuarios a programar una cita para este servicio de masajes para mascotas.
-- Proporciona botones de llamada a la acción claros y llamativos para que los usuarios puedan reservar fácilmente.
+   - Estiliza el formulario de contacto utilizando CSS para garantizar una presentación visual atractiva y coherente.
+   - Define clases CSS para aplicar estilos específicos a los diferentes elementos del formulario, como campos de entrada, área de texto y botón de envío.
+   - Utiliza CSS para controlar el tamaño, el color y la disposición de los elementos del formulario, así como los efectos de transición al interactuar con ellos.
 
-# Footer (Repetido de la página anterior)
+3. **Funcionalidad JavaScript:**
 
-- Incluye información de contacto, enlaces a redes sociales y detalles de derechos de autor.
+   - Implementa JavaScript para validar los datos ingresados por el usuario en el formulario y prevenir envíos de formulario incorrectos.
+   - Utiliza JavaScript para mostrar mensajes de error o confirmación al enviar el formulario y para limpiar los campos del formulario después de un envío exitoso.
+   - Considera agregar animaciones o efectos visuales al mostrar mensajes de error o confirmación para mejorar la experiencia del usuario.
 
-## Página 3: Formulario de Contacto
+Al diseñar este formulario de contacto, busca una presentación clara y fácil de usar que permita a los usuarios enviar consultas o comentarios de manera rápida y sencilla. Asegúrate de que el formulario sea fácil de entender y que proporcione retroalimentación adecuada al usuario al interactuar con él.
 
-# Nav Bar (Repetido de la página anterior)
+### Bloque 2: Información de Contacto
 
-- Incluye el logo de la empresa y los enlaces de navegación.
-- Asegúrate de que los usuarios puedan acceder fácilmente a otras partes del sitio web.
+En esta sección se presenta información de contacto adicional para la peluquería Maktub, incluyendo dirección física, números de teléfono y dirección de correo electrónico. La información se presenta en formato de lista para una fácil lectura y comprensión por parte de los usuarios.
 
-## Formulario de Contacto
+Ejemplo de información de contacto:
 
-- Crea un formulario de contacto con campos para el nombre, correo electrónico, número de teléfono y mensaje.
-- Considera la posibilidad de añadir una lista desplegable para que los usuarios puedan seleccionar un profesional específico.
-- Proporciona un botón de envío claro y visible para que los usuarios puedan enviar sus consultas fácilmente.
+- **Dirección:**
+  Calle Ficticia, Nº1234
+  Ciudad Imaginaria, CP 12345
+- **Teléfono:**
+  +123 456 789
+- **Correo Electrónico:**
+  info@maktubpeluqueria.com
 
-## Información Adicional
+Al diseñar esta sección, busca una presentación clara y concisa que permita a los usuarios acceder rápidamente a la información de contacto de la peluquería Maktub. Asegúrate de que la información esté organizada de manera lógica y que sea fácil de encontrar y comprender.
 
-- Incluye detalles de contacto adicionales, como dirección física y números de teléfono.
-- Proporciona instrucciones claras sobre cómo los usuarios pueden esperar ser contactados después de enviar el formulario.
+## Conclusiones
 
-# Footer (Repetido de la página anterior)
+El desarrollo del sitio web para la peluquería Maktub ha sido un proyecto emocionante y gratificante. A lo largo de este proceso, se ha puesto un gran énfasis en la usabilidad, la accesibilidad y la experiencia del usuario, con el objetivo de crear un sitio web que sea atractivo, funcional y fácil de usar para los clientes potenciales.
 
-- Incluye información de contacto, enlaces a redes sociales y detalles de derechos de autor.
+Se ha trabajado en colaboración con el cliente para entender sus necesidades y expectativas, y se ha utilizado este conocimiento para diseñar y desarrollar un sitio web que refleje la identidad y los valores de la peluquería Maktub. Se han implementado diferentes bloques y secciones para presentar los servicios, promociones y testimonios de la peluquería de manera clara y efectiva, y se han utilizado tecnologías modernas como HTML5, CSS3 y JavaScript para garantizar una experiencia de usuario de alta calidad.
+
+En resumen, el sitio web de la peluquería Maktub es un testimonio del poder del diseño centrado en el usuario y la colaboración entre el cliente y el equipo de desarrollo. Esperamos que este sitio web ayude a la peluquería Maktub a alcanzar sus objetivos comerciales y atraer a nuevos clientes, proporcionando una plataforma en línea que sea informativa, atractiva y fácil de usar.
+
+Para cualquier consulta adicional o solicitud de modificación, no dudes en ponerte en contacto con nosotros. Estamos aquí para ayudarte en todo lo que necesites.

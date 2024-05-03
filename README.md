@@ -1,82 +1,167 @@
-# Checklist de Desarrollo del Sitio Web para Peluquería Canina
+# Proyecto WEB 1 - ULP
 
-## Página 1: Inicio
+## Proyecto para Sitio de Peluqueria "Maktub"
 
-- [ ] **Bloque 1: Nav Bar** MATIAS / DEBORA
+### Página 1: Inicio
 
-  - Implementar el espacio con el logo de la empresa.
-  - Crear enlaces de navegación para acceder a diferentes secciones del sitio.
-  - Integrar íconos de acceso a redes sociales (Facebook e Instagram).
+#### Bloque 1: Nav Bar
 
-- [ ] **Bloque 2: Imágenes con Servicios del Lugar** DEBORA
+- [ ] **Espacio con Logo de la Empresa:**
+  - [ ] Implementar la etiqueta `<img>` para mostrar el logo de la empresa.
+  - [ ] Alinear el logo de la empresa en el espacio designado.
+- [ ] **Links para Navegar la Página:**
+  - [ ] Agrupar los enlaces de navegación utilizando la etiqueta `<div class="navbar-links">`.
+  - [ ] Estilizar los enlaces para una presentación clara y organizada.
+- [ ] **Items de Acceso a Redes Sociales:**
+  - [ ] Crear íconos o enlaces para las redes sociales de la peluquería.
+  - [ ] Estilizar los íconos o enlaces para una presentación atractiva.
 
-  - Desarrollar el bloque de imágenes para representar los servicios ofrecidos.
-  - Implementar efecto de rotación al pasar el mouse sobre las imágenes.
-  - Ejemplificar varios servicios ofrecidos por la peluquería canina.
+#### Bloque 2: Imágenes con Servicios del Lugar
 
-- [ ] **Bloque 3: Promociones y Precios** MATIAS
+- [ ] **Implementar Carrusel de Imágenes:**
+  - [ ] Definir la estructura del carrusel utilizando `<div>` y `<img>` con clases adecuadas.
+  - [ ] Estilizar el carrusel de imágenes para una presentación atractiva.
+  - [ ] Implementar JavaScript para permitir la navegación entre las imágenes.
 
-  - Detallar las promociones disponibles y los precios de los servicios.
-  - Enumerar las promociones y servicios utilizando listas y tablas.
-  - Proporcionar instrucciones claras para aprovechar las promociones y reservar citas.
+#### Bloque 3: Promociones y Precios
 
-- [ ] **Bloque 4: Carrusel con Mascotas Siendo Atendidas** MATIAS / DEBORA
+- [ ] **Lista de Promociones y Servicios:**
+  - [ ] Enumerar las promociones y servicios utilizando listas ordenadas o no ordenadas.
+  - [ ] Incluir imágenes para complementar las descripciones.
+- [ ] **Precios de los Servicios:**
+  - [ ] Crear una tabla para organizar los precios de los servicios.
+  - [ ] Incluir variaciones de precios si es necesario.
+- [ ] **Información Adicional:**
+  - [ ] Proporcionar instrucciones claras para aprovechar las promociones y reservar citas.
+  - [ ] Incluir detalles de contacto para que los clientes puedan comunicarse fácilmente.
 
-  - Desarrollar un carrusel de imágenes con mascotas siendo atendidas.
-  - Implementar efecto visual donde la imagen principal se agrande y las demás se desenfoquen al seleccionar una imagen.
-  - Utilizar JavaScript sin bibliotecas externas para controlar la lógica del carrusel y aplicar estilos con CSS.
+#### Bloque 4: Carrusel con Mascotas Siendo Atendidas
 
-- [ ] **Bloque 5: Testimonios de Clientes - Implementación en el Sitio** DEBORA
+- [ ] **Implementar Carrusel de Imágenes:**
+  - [ ] Definir la estructura del carrusel utilizando `<div>` y `<img>` con clases adecuadas.
+  - [ ] Estilizar el carrusel de imágenes para una presentación atractiva.
+  - [ ] Implementar JavaScript para permitir la navegación entre las imágenes.
 
-  - Estructurar los testimonios y las imágenes de los clientes utilizando etiquetas HTML semánticas.
-  - Aplicar estilos con CSS para mejorar la presentación visual de los testimonios.
-  - Asegurar que los testimonios sean responsive y se destaquen las palabras clave para resaltar los aspectos positivos de la experiencia del cliente.
+#### Bloque 5: Testimonios de Clientes
 
-- [ ] **Bloque 6: Zona de Turnos y Patrocinadores** MATIAS
+- [ ] **Estructurar Testimonios en HTML:**
+  - [ ] Utilizar etiquetas HTML semánticas para organizar los testimonios y las fotografías.
+  - [ ] Incluir imágenes de los clientes utilizando la etiqueta `<img>` con atributos adecuados.
+- [ ] **Estilizar Testimonios con CSS:**
+  - [ ] Estilizar los testimonios y las imágenes de los clientes utilizando CSS.
+  - [ ] Asegurar un diseño responsive para diferentes dispositivos.
 
-  - Zona de Turnos: Desarrollar la sección para mostrar la disponibilidad de turnos y permitir reservas.
-  - Patrocinadores: Crear una sección para mostrar los logos de los patrocinadores con efecto de rotación intermitente.
+#### Bloque 6: Zona de Turnos y Patrocinadores
 
-- [ ] **Bloque 7: Footer** DEBORA
-  - Desarrollar la estructura y estilos del footer.
-  - Incluir información de derechos de autor, contacto y redes sociales.
+- [ ] **Implementar Zona de Turnos:**
+  - [ ] Utilizar tecnologías como FullCalendar para el calendario interactivo.
+  - [ ] Desarrollar un backend para gestionar las reservas de turnos.
+- [ ] **Implementar Sección de Patrocinadores:**
+  - [ ] Crear un espacio para mostrar logos de patrocinadores.
+  - [ ] Implementar un efecto de rotación para mostrar marcas de patrocinadores.
 
-## Página 2: Servicio 5
+#### Bloque 7: Footer
 
-- [ ] **Bloque 1: Nav Bar**
+- [ ] **Incluir Información de Contacto:**
+  - [ ] Agregar detalles de contacto como dirección física, números de teléfono y correo electrónico.
+- [ ] **Añadir Redes Sociales:**
+  - [ ] Incluir enlaces a perfiles sociales de la empresa.
+- [ ] **Estilizar Footer:**
+  - [ ] Estilizar el footer utilizando CSS para una presentación clara y ordenada.
 
-  - Incluir el Nav Bar con enlaces de navegación y acceso a redes sociales.
+### Página 2: Servicio - Corte de Uñas
 
-- [ ] **Bloque 2: Descripción del Servicio**
+#### Bloque 1: Nav Bar
 
-  - Detallar los servicios ofrecidos en la página de servicio 5.
-  - Incluir imágenes y especificaciones para cada servicio.
-  - Proporcionar información clara para que los usuarios comprendan los servicios disponibles.
+- [ ] Implementar mismo Nav Bar que en la página 1.
 
-- [ ] **Bloque 3: Carrusel con Mascotas Siendo Atendidas**
+#### Bloque 2: Detalles del Servicio
 
-  - Desarrollar un carrusel de imágenes con mascotas siendo atendidas.
-  - Implementar efecto visual donde la imagen principal se agrande y las demás se desenfoquen al seleccionar una imagen.
-  - Utilizar JavaScript sin bibliotecas externas para controlar la lógica del carrusel y aplicar estilos con CSS.
+- [ ] **Descripción del Servicio:**
+  - [ ] Especificar los detalles del servicio de corte de uñas para clientes humanos.
+- [ ] **Técnicas y Procedimientos:**
+  - [ ] Detallar las técnicas y procedimientos utilizados en el servicio.
+  - [ ] Incluir información sobre la experiencia del cliente durante el servicio.
 
-- [ ] **Bloque 4: Precios y promociones + Invitacion a turnos**
+#### Bloque 3: Precios y Promociones
 
-  -
-  -
-  -
+- [ ] **Lista de Precios:**
+  - [ ] Enumerar los precios del servicio de corte de uñas para diferentes categorías.
+- [ ] **Promociones Especiales:**
+  - [ ] Describir cualquier promoción especial relacionada con el servicio de corte de uñas.
+  - [ ] Incluir detalles sobre cómo los clientes pueden aprovechar estas promociones.
 
-- [ ] **Bloque 5: Footer**
-  - Incluir el footer con información de derechos de autor, contacto y redes sociales.
+#### Bloque 4: Galería de Imágenes
 
-## Página 3: Formulario de Contacto
+- [ ] **Selección de Imágenes:**
+  - [ ] Seleccionar imágenes relevantes que muestren el proceso de corte de uñas.
+  - [ ] Asegurar que las imágenes sean de alta calidad y representen fielmente el servicio.
 
-- Incluir el Nav Bar con enlaces de navegación y acceso a redes sociales.
+#### Bloque 5: Testimonios de Clientes
 
-- [ ] **Bloque 2: Formulario de Contacto**
+- [ ] **Recopilación de Testimonios:**
+  - [ ] Obtener testimonios de clientes satisfechos con el servicio de corte de uñas.
+  - [ ] Incluir testimonios breves que destaquen la experiencia positiva del cliente.
 
-  - Diseñar un formulario de contacto simple para que los usuarios puedan comunicarse con la empresa.
-  - Incluir campos para nombre, correo electrónico, mensaje y opción para seleccionar un profesional específico.
-  - Integrar una lista desplegable para que los usuarios elijan un profesional de una lista de rubros, estilista, etc o un administrador, area facturacion, area gerencia, etc
+#### Bloque 6: Reservas y Citas
 
-- [ ] **Bloque 3: Footer**
-  - Incluir el footer con información de derechos de autor, contacto y redes sociales.
+- [ ] **Sistema de Reservas:**
+  - [ ] Implementar un sistema de reservas en línea para el servicio de corte de uñas.
+  - [ ] Asegurar que los clientes puedan seleccionar horarios disponibles y confirmar citas fácilmente.
+
+#### Bloque 7: Información Adicional
+
+- [ ] **Cuidados Posteriores:**
+  - [ ] Proporcionar información sobre los cuidados posteriores recomendados después del servicio de corte de uñas.
+- [ ] **Preguntas Frecuentes:**
+  - [ ] Incluir respuestas a preguntas frecuentes relacionadas con el servicio de corte de uñas.
+  - [ ] Asegurar que los clientes tengan toda la información necesaria antes de reservar una cita.
+
+#### Bloque 8: Footer
+
+- [ ] Implementar mismo Footer que en la página 1.
+
+### Página 3: Formulario de Contacto
+
+#### Bloque 1: Nav Bar
+
+- [ ] Implementar mismo Nav Bar que en la página 1.
+
+#### Bloque 2: Formulario de Contacto
+
+- [ ] **Desarrollo del Formulario:**
+  - [ ] Crear un formulario de contacto en HTML con los campos necesarios para la peluquería.
+  - [ ] Incluir campos como nombre, correo electrónico, número de teléfono y mensaje.
+- [ ] **Estilización del Formulario:**
+  - [ ] Aplicar estilos CSS al formulario para una presentación atractiva y coherente con el diseño del sitio.
+  - [ ] Asegurar que el formulario sea responsive y se adapte a diferentes tamaños de pantalla.
+- [ ] **Validación del Formulario:**
+  - [ ] Implementar validación de campos utilizando JavaScript para garantizar que se ingresen datos válidos antes de enviar el formulario.
+  - [ ] Validar campos como dirección de correo electrónico y número de teléfono.
+- [ ] **Envío del Formulario:**
+  - [ ] Desarrollar funciones en JavaScript para procesar y enviar el formulario.
+  - [ ] Manejar la lógica de envío del formulario, incluida la interacción con un backend si es necesario.
+
+#### Bloque 3: Información del Lugar
+
+- [ ] **Presentación de la Información:**
+  - [ ] Crear una sección de información del lugar en HTML.
+  - [ ] Presentar la información en formato de lista para una fácil lectura.
+- [ ] **Estilización de la Sección:**
+  - [ ] Aplicar estilos CSS para dar formato y presentar la información de manera clara y concisa.
+  - [ ] Asegurar que la sección sea responsive y se vea bien en diferentes dispositivos.
+
+#### Bloque 4: Footer
+
+- [ ] Implementar mismo Footer que en la página 1.
+
+---
+
+### Anexo: Comentarios para el Desarrollo del Backend
+
+- Se requiere desarrollar un backend para manejar el envío y procesamiento de los formularios de contacto.
+- Utilizar un lenguaje de programación adecuado para el backend, como Node.js, Python, PHP, etc.
+- Configurar un servidor que pueda recibir las solicitudes del formulario y procesarlas de manera segura.
+- Implementar medidas de seguridad para proteger los datos del formulario, como la validación de entradas y la prevención de ataques de inyección.
+- Utilizar una base de datos para almacenar los datos enviados a través del formulario, si es necesario.
+- Establecer una API para que el frontend pueda comunicarse con el backend de manera efectiva.
