@@ -1,47 +1,69 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
 .navbar {
+  width: 100%;
+	height:170px;
+	background-image: linear-gradient(-90deg, #111111, #BF0005);
   display: flex;
   justify-content: space-between;
-  background-color: #333;
   color: white;
-  padding: 10px 20px;
+  margin: 0px;
+  font-family: 'Montserrat';
+}
+.navbar-logo{
+	float:left;
 }
 .navbar-logo img {
-  height: 40px;
-  width: 40px;
+  margin-left: 15px;
+	margin-top: 15px;
+	width: 150px;
 }
 
 .navbar-links {
   display: flex;
+  padding-bottom: 15px;
+  float: right;
+  align-items: flex-end; /* Alinea los enlaces hacia abajo */
+  position: right;
+  
+}
+.navbar-links ul{
+	float:right;
+	list-style: none;
+  gap: 25px; /* Espacio entre enlaces */
 }
 
-.links-container {
-  display: flex;
-  flex-direction: row; /* Alinea los enlaces hacia abajo */
-  gap: 10px; /* Espacio entre enlaces */
-  align-items: flex-end;
+.navbar-links ul li{
+	float:right;
+  padding-left: 15px;
 }
 .navbar-links a {
   color: white;
   text-decoration: none;
-  font-size: 1.2vw; /* Tamaño proporcional al viewport width */
+  font-size: 1.5vw; /* Tamaño proporcional al viewport width */
 }
 
 .navbar-links a:hover {
-  font-size: 100%;
-  color: red;
+  text-decoration:underline;
+  text-decoration-thickness: 5px;
 }
 
 .navbar-social {
-  display: flex;
-  gap: 20px;
+  margin:10px;
+	height: 50px;
+  width: 100px;
+	float:right;
+	float:top;
+  font-size: 20px;
 }
 
 .social-icon {
-  background-color: #fff;
-  color: #333;
-  border-radius: 50%;
-  width: 10px;
-  height: 10px;
+  float:right;
+  color: white;
+  width: 40px;
+  height: 40px;
   display: flex;
   align-items: start;
   justify-content: center;
@@ -49,5 +71,39 @@
 }
 
 .social-icon:hover {
-  background-color: red;
+  color: red;
+}
+
+.servicios{
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.link-imagen{
+  background-color: #2E2829;
+	width: 250px;
+	height: 250px;
+  float: left;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  text-align: center;
+  transition: 1s;
+}
+
+.link-imagen h3{
+  color:white;
+  font-family: 'Segoe Script';font-size: 1.7vw;
+  padding-bottom: 10px;
+}
+
+.servicios img{
+  width: 80%;
+}
+.servicios .link-imagen:hover{
+  background-color: #75040C;
 }
