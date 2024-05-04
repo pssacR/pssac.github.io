@@ -65,12 +65,19 @@ html {
 .social-icon:hover {
   background-color: red;
 }
+/* general bloques */
+.link-imagen h3,
+.tablas-promos h3 {
+  color: white;
+  font-family: "Segoe Script";
+  padding-bottom: 10px;
+  text-decoration: none;
+}
 
 /* bloque 2 -  Servicios */
 .bloque2 {
   background-color: gray;
 }
-
 .servicios {
   /* width: 70%; */
   margin: 0 auto; /* Centrar horizontalmente */
@@ -82,7 +89,6 @@ html {
   align-items: center; /* Centrar verticalmente */
   justify-items: center;
 }
-
 .link-imagen {
   background-color: #2e2829;
   width: 250px;
@@ -94,16 +100,9 @@ html {
   border-bottom-left-radius: 40px;
   justify-content: center; /* Ajustar el contenido al centro */
   align-items: center; /* Centrar verticalmente */
-  text-align: center;
+
   flex-direction: column;
   transition: 0.3s;
-}
-
-.link-imagen h3,
-.tablas-promos h3 {
-  color: white;
-  font-family: "Segoe Script";
-  padding-bottom: 10px;
 }
 
 .servicios img {
