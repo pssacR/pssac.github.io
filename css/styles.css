@@ -1,5 +1,6 @@
 html {
   box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
 }
 *,
 *:before,
@@ -10,57 +11,66 @@ html {
 /* navBar */
 .navbar {
   background: rgb(187, 56, 60);
-  background: linear-gradient(
-    90deg,
-    rgba(187, 56, 60, 1) 46%,
-    rgba(0, 0, 0, 1) 100%
-  );
-  color: white;
-  font-size: 0.9vh;
-  padding: 6px 6px;
-  height: 10vh;
+  background: linear-gradient(90deg, #bf0005 46%, #000 100%);
+  color: #ededed;
+  font-size: 1.7vh;
+  padding: 6px;
+  height: 12.5vh;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  position: relative;
 }
 .navbar-logo img {
-  height: 50px;
-  width: 50px;
+  position: relative;
+  height: 11vh;
+  width: 14vh;
+  margin: auto;
 }
-.nav-rows {
-  display: flex;
-  flex-direction: column;
-  margin-left: auto;
-}
-.navbar-links {
+.navbar-rows {
   display: flex;
   flex-direction: row;
 }
 .links-container {
   display: flex;
-  gap: 10px; /* Espacio entre enlaces */
+  gap: 1vw; /* Espacio entre enlaces */
 }
-.navbar-links a {
-  color: white;
+.link-wrapper {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 6px;
+}
+.links-container a {
+  color: #fff;
   text-decoration: none;
+  font-size: 2vw;
 }
-.navbar-links a:hover {
-  font-size: 50%;
-  color: black;
+.links-container a:visited {
+  color: #fff;
+}
+.links-container a:hover {
+  font-size: 110%;
+  color: #2e2829;
 }
 .navbar-social {
+  position: absolute;
   display: flex;
-  gap: 20px;
-  margin-left: auto;
-  align-items: start;
+  flex-direction: row;
+  gap: 10px;
+  padding: 6px;
+
+  align-items: baseline;
+  top: 0;
+  right: 0;
 }
 .social-icon {
-  background-color: #fff;
-  color: #333;
+  background-color: #bf0005;
+  color: #fff;
   border-radius: 50%;
-  width: 10px;
-  height: 10px;
-  display: block;
-  align-items: start;
-  justify-content: center;
-  text-decoration: none;
+  width: 2vh;
+  height: 2vh;
+  text-align: center;
 }
 .social-icon:hover {
   background-color: red;
@@ -68,41 +78,42 @@ html {
 /* general bloques */
 .link-imagen h3,
 .tablas-promos h3 {
-  color: white;
-  font-family: "Segoe Script";
+  color: #fff;
   padding-bottom: 10px;
-  text-decoration: none;
+  font-size: 1.7vh;
+  max-width: 80%;
+  text-align: center;
 }
 
 /* bloque 2 -  Servicios */
-.bloque2 {
-  background-color: gray;
-}
+
 .servicios {
-  /* width: 70%; */
-  margin: 0 auto; /* Centrar horizontalmente */
-  padding-top: 50px;
-  padding-bottom: 50px;
+  background-color: #c9c9c9;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 0 auto;
   display: flex;
+  justify-content: space-between;
   flex-direction: row;
-  justify-content: center; /* Ajustar el contenido al centro */
-  align-items: center; /* Centrar verticalmente */
-  justify-items: center;
 }
 .link-imagen {
   background-color: #2e2829;
-  width: 250px;
-  height: 250px;
-  margin: 0 auto;
+  position: relative;
+  margin: 0 2vw;
+  margin-bottom: 2vh;
   display: flex;
   border-top-left-radius: 40px;
   border-top-right-radius: 40px;
   border-bottom-left-radius: 40px;
   justify-content: center; /* Ajustar el contenido al centro */
-  align-items: center; /* Centrar verticalmente */
-
+  align-items: center;
   flex-direction: column;
   transition: 0.3s;
+}
+
+.link-imagen a {
+  text-decoration: none;
+  margin-right: 2vw;
 }
 
 .servicios img {
@@ -112,10 +123,10 @@ html {
 /* bloque 3 -  Precios y Promociones */
 
 .promociones {
-  /*   width: 70%;*/
+  width: 45%;
   margin: 0 auto; /* Centrar horizontalmente */
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   display: flex;
   justify-content: center; /* Ajustar el contenido al centro */
   align-items: center; /* Centrar verticalmente */
@@ -130,7 +141,9 @@ html {
   border-top-left-radius: 40px;
   border-top-right-radius: 40px;
   border-bottom-left-radius: 40px;
-  text-align: center;
+  justify-content: start; /* Ajustar el contenido al centro */
+  align-items: center;
+  flex-direction: column;
   transition: 0.3s;
 }
 

@@ -9,7 +9,7 @@ COLORES:
 - degrade
 
   - ROJO: #BF0005
-  - NEGRO
+  - NEGRO: #000
 
 - TAMAÑO DE DIV DEL MEDIO: 70%
 
