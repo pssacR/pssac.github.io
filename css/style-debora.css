@@ -29,7 +29,7 @@ html {
 .navbar-links {
   display: flex;
   padding-bottom: 15px;
-  float: right;
+  float: left;
   align-items: flex-end; /* Alinea los enlaces hacia abajo */
   position: absolute;
   bottom: 0;
@@ -44,7 +44,7 @@ html {
 }
 
 .navbar-links ul li{
-	float:right;
+	float:left;
   padding-left: 15px;
 }
 .navbar-links a {
@@ -89,15 +89,53 @@ font-size: 22px;
 	margin-left: auto;
 	margin-right: auto;
 	padding-top: 50px;
-  display: flex;
-  justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
+}
+.servicios a{
+    text-decoration: none;
+    color:white
+}
+
+@media (max-width: 991px) {
+    .servicios{
+        width: 90%;
+    }
+    .link-imagen h3{
+        font-size: 19px;
+    }
+}
+@media (max-width: 576px){
+    .navbar {
+        height:100px;
+    } 
+    .navbar-logo img {
+        margin-left: 5px;
+        margin-top: 5px;
+        width: 100px;
+    }
+    .servicios{
+        width: 90%;
+        display: block;
+        clear: left;
+        clear: right;
+    }
+    .link-imagen{
+        margin:0px;
+        clear: left;
+        clear: right;
+        margin-bottom: 10px;
+    }
+    .link-imagen h3{
+        font-size: 33px;
+    }
 }
 
 .link-imagen{
   background-color: #2E2829;
-  width: 90%;
-  margin:5%;
-  float: left;
+  width: 90%; 
+  margin-left: auto;
+  margin-right: auto;
   border-top-left-radius: 40px;
   border-top-right-radius: 40px;
   border-bottom-left-radius: 40px;
@@ -107,7 +145,7 @@ font-size: 22px;
 
 .link-imagen h3{
   color:white;
-  font-family: 'Segoe Script';font-size: 1.7vw;
+  font-family: 'Segoe Script';font-size: 22px;
   padding-bottom: 10px;
 }
 
@@ -117,3 +155,48 @@ font-size: 22px;
 .servicios .link-imagen:hover{
   background-color: #75040C;
 }
+
+.testimonios-fondo{
+    margin-top: 50px;
+    width: 100%;
+    height: 500px;
+    background-image: url("../img/foto-parallax.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.testimonios{
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.t{
+    width: 30%;
+    
+    margin-left: auto;
+    margin-right: auto;
+    padding:30px;
+    background-color: #EDEDED;
+	box-shadow: 6px 6px 17px -6px rgba(52,52,56,1);
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    text-align: center;
+    font-family:'montserrat';
+}
+.t h4{
+    /*font-family:Georgia, serif;*/
+    font-family: "BIZ UDPMincho", serif, "Cinzel", "Coustard", serif;
+    height: 80px;
+    font-size: 100px;
+    color: #8C888A;
+}
+.t img{
+    width: 60%;
+    border-radius: 100%; 
+}
+
