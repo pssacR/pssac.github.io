@@ -132,7 +132,7 @@ html {
   align-items: center; /* Centrar verticalmente */
 }
 .bloque3 {
-  background-image: url("/img/Fondo-claro.png");
+  background-image: url("../img/Fondo-claro.png");
   background-size: contain;
 }
 
