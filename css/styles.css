@@ -123,39 +123,68 @@ html {
 /* bloque 3 -  Precios y Promociones */
 
 .promociones {
-  width: 45%;
+  width: 70%;
   margin: 0 auto; /* Centrar horizontalmente */
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   display: flex;
   justify-content: center; /* Ajustar el contenido al centro */
   align-items: center; /* Centrar verticalmente */
 }
+.bloque3 {
+  background-image: url("/img/Fondo-claro.png");
+  background-size: contain;
+}
 
 .tablas-promos {
-  background-color: #2e2829;
-  width: 750px;
-  height: 250px;
+  background-color: #ededed;
+  width: 90vw;
+  height: 35vh;
   display: flex;
   flex-direction: column;
   border-top-left-radius: 40px;
   border-top-right-radius: 40px;
   border-bottom-left-radius: 40px;
-  justify-content: start; /* Ajustar el contenido al centro */
+  justify-content: start;
   align-items: center;
   flex-direction: column;
   transition: 0.3s;
 }
 
-.bloque3 {
-  background-color: #ccc; /* Fondo gris */
-  background-image: url("img/logo-blanco.png");
-  background-repeat: repeat; /* Repetir la imagen en el fondo */
-  background-position: center; /* Centrar la imagen */
-  background-blend-mode: darken;
+.tablas-promos h3 {
+  color: #75040c;
 }
 
 .servicios .link-imagen:hover,
 .promociones .tablas-promos:hover {
   background-color: #75040c;
+  font-size: 2vh;
+  color: #fff;
+}
+
+.tablas-promos:hover h3,
+.tablas-promos:hover th {
+  color: #fff;
+  font-size: 2vh;
+}
+
+.tablas-styles {
+  font-size: 1.5vh;
+  text-align: top;
+  align-items: center;
+}
+
+.tablas-styles td {
+  vertical-align: top;
+}
+
+.tablas-styles th {
+  color: #75040c;
+  font-size: 1.7vh;
+}
+
+/* bloque 4 -  Carrousel */
+
+.bloque4 {
+  background-color: #c9c9c9;
 }
