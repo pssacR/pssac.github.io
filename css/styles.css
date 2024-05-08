@@ -1,6 +1,5 @@
 html {
   box-sizing: border-box;
-  font-family: "Montserrat", sans-serif;
 }
 *,
 *:before,
@@ -8,154 +7,207 @@ html {
   box-sizing: inherit;
 }
 
-/* navBar */
+*{
+  margin: 0px;
+  padding: 0px;
+}
 .navbar {
-  background: rgb(187, 56, 60);
-  background: linear-gradient(90deg, #bf0005 46%, #000 100%);
-  color: #ededed;
-  font-size: 1.7vh;
-  padding: 6px;
-  height: 12.5vh;
-  position: relative;
+	height:170px;
+	background-image: linear-gradient(-90deg, #111111, #BF0005);
   display: flex;
-  flex-direction: row;
+  justify-content: space-between;
+  color: white;
+  font-family: 'Montserrat';
   position: relative;
 }
+
 .navbar-logo img {
-  position: relative;
-  height: 11vh;
-  width: 14vh;
-  margin: auto;
+  margin-left: 15px;
+	margin-top: 15px;
+	width: 150px;
 }
-.navbar-rows {
+
+.navbar-links {
   display: flex;
-  flex-direction: row;
-}
-.links-container {
-  display: flex;
-  gap: 1vw; /* Espacio entre enlaces */
-}
-.link-wrapper {
+  padding-bottom: 15px;
+  float: right;
+  align-items: flex-end; /* Alinea los enlaces hacia abajo */
   position: absolute;
   bottom: 0;
   right: 0;
-  padding: 6px;
+  padding-bottom: 20px;
+  padding-right: 20px;
 }
-.links-container a {
-  color: #fff;
+
+.navbar-links ul{
+	float:left;
+	list-style: none;
+  gap: 25px; /* Espacio entre enlaces */
+}
+
+.navbar-links ul li{
+	float:left;
+  padding-left: 15px;
+}
+.navbar-links a {
+  color: white;
   text-decoration: none;
-  font-size: 2vw;
+  font-size: 1.5vw; /* Tamaño proporcional al viewport width */
 }
-.links-container a:visited {
-  color: #fff;
+
+.navbar-links a:hover {
+  text-decoration:underline;
+  text-decoration-thickness: 5px;
 }
-.links-container a:hover {
-  font-size: 110%;
-  color: #2e2829;
-}
+
 .navbar-social {
   position: absolute;
-  display: flex;
-  flex-direction: row;
-  gap: 10px;
-  padding: 6px;
-
-  align-items: baseline;
   top: 0;
   right: 0;
+  padding-right: 10px;
+  padding-top: 15px;
 }
+
 .social-icon {
-  background-color: #bf0005;
-  color: #fff;
-  border-radius: 50%;
-  width: 2vh;
-  height: 2vh;
-  text-align: center;
+  float:right;
+  color: white;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  text-decoration: none;
+  padding-right: 10px;
 }
+
+.social-icon i{
+  font-size: 22px;
+}
+
 .social-icon:hover {
-  background-color: red;
-}
-/* general bloques */
-.link-imagen h3,
-.tablas-promos h3 {
-  color: #fff;
-  padding-bottom: 10px;
-  font-size: 1.7vh;
-  max-width: 80%;
-  text-align: center;
+  color: red;
 }
 
-/* bloque 2 -  Servicios */
-
-.servicios {
-  background-color: #c9c9c9;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  margin: 0 auto;
+.servicios{
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 50px;
   display: flex;
   justify-content: space-between;
-  flex-direction: row;
 }
-.link-imagen {
-  background-color: #2e2829;
-  position: relative;
-  margin: 0 2vw;
-  margin-bottom: 2vh;
-  display: flex;
+
+.servicios a{
+  text-decoration: none;
+  color:white
+}
+
+@media (max-width: 991px) {
+  .servicios{
+      width: 90%;
+  }
+  .link-imagen h3{
+      font-size: 19px;
+  }
+}
+@media (max-width: 576px){
+  .navbar {
+      height:100px;
+  } 
+  .navbar-logo img {
+      margin-left: 5px;
+      margin-top: 5px;
+      width: 100px;
+  }
+  .servicios{
+      width: 90%;
+      display: block;
+      clear: left;
+      clear: right;
+  }
+  .link-imagen{
+      margin:0px;
+      clear: left;
+      clear: right;
+      margin-bottom: 10px;
+  }
+  .link-imagen h3{
+      font-size: 33px;
+  }
+}
+
+.link-imagen{
+  background-color: #2E2829;
+	width: 90%; 
+  margin-left: auto;
+  margin-right: auto;
   border-top-left-radius: 40px;
   border-top-right-radius: 40px;
   border-bottom-left-radius: 40px;
-  justify-content: center; /* Ajustar el contenido al centro */
-  align-items: center;
-  flex-direction: column;
-  transition: 0.3s;
+  text-align: center;
+  transition: 1s;
 }
 
-.link-imagen a {
-  text-decoration: none;
-  margin-right: 2vw;
+.link-imagen h3{
+  color:white;
+  font-family: 'Segoe Script';font-size: 22px;
+  padding-bottom: 10px;
 }
 
-.servicios img {
+.servicios img{
   width: 80%;
 }
-
-/* bloque 3 -  Precios y Promociones */
-
-.promociones {
-  width: 45%;
-  margin: 0 auto; /* Centrar horizontalmente */
-  padding-top: 10px;
-  padding-bottom: 10px;
-  display: flex;
-  justify-content: center; /* Ajustar el contenido al centro */
-  align-items: center; /* Centrar verticalmente */
+.servicios .link-imagen:hover{
+  background-color: #75040C;
 }
 
-.tablas-promos {
-  background-color: #2e2829;
-  width: 750px;
-  height: 250px;
+.testimonios-fondo{
+  margin-top: 50px;
+  width: 100%;
+  height: 500px;
+  background-image: url("../img/foto-parallax.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.testimonios{
+width: 70%;
+margin-left: auto;
+margin-right: auto;
+  padding-top: 50px;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+}
+.t{
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  padding:30px;
+  background-color: #EDEDED;
+  box-shadow: 6px 6px 17px -6px rgba(52,52,56,1);
   border-top-left-radius: 40px;
   border-top-right-radius: 40px;
   border-bottom-left-radius: 40px;
-  justify-content: start; /* Ajustar el contenido al centro */
-  align-items: center;
-  flex-direction: column;
-  transition: 0.3s;
+  text-align: center;
+  font-family:'montserrat';
+}
+.t h4{
+  /*font-family:Georgia, serif;*/
+  font-family: "BIZ UDPMincho", serif, "Cinzel", "Coustard", serif;
+  height: 80px;
+  font-size: 100px;
+  color: #8C888A;
+}
+.t img{
+  width: 60%;
+  border-radius: 100%; 
+}
+.footer{
+  height:170px;
+background-image: linear-gradient(-90deg, #BF0005, #111111);
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  font-family: 'Montserrat';
+  position: relative;
 }
 
-.bloque3 {
-  background-color: #ccc; /* Fondo gris */
-  background-image: url("img/logo-blanco.png");
-  background-repeat: repeat; /* Repetir la imagen en el fondo */
-  background-position: center; /* Centrar la imagen */
-  background-blend-mode: darken;
-}
-
-.servicios .link-imagen:hover,
-.promociones .tablas-promos:hover {
-  background-color: #75040c;
-}
