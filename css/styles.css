@@ -101,6 +101,9 @@ html {
 }
 
 @media (max-width: 991px) {
+  .testimonios{
+    width: 90%!important;
+  }
   .servicios{
       width: 90%;
   }
@@ -162,36 +165,43 @@ html {
 .testimonios-fondo{
   margin-top: 50px;
   width: 100%;
-  height: 500px;
-  background-image: url("../img/foto-parallax.jpg");
+  height: 550px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/foto-parallax.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .testimonios{
-width: 70%;
-margin-left: auto;
-margin-right: auto;
-  padding-top: 50px;
-  display: flex;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
   justify-content: space-between;
+}
+.testimonios h3{
+	text-align: center;
+	margin-bottom: 5px;
+	font-size: 50px;
+	color: white;
+  font-family: 'Segoe Script';
 }
 .t{
   width: 30%;
-  margin-left: auto;
-  margin-right: auto;
+  height: 382px;
+  margin-left: 11px;
+  margin-right: 11px;
   padding:30px;
   background-color: #EDEDED;
-  box-shadow: 6px 6px 17px -6px rgba(52,52,56,1);
+  box-shadow: 6px 6px 12px -5px rgb(26, 25, 25);
   border-top-left-radius: 40px;
   border-top-right-radius: 40px;
   border-bottom-left-radius: 40px;
   text-align: center;
   font-family:'montserrat';
+  float: left;
 }
 .t h4{
-  /*font-family:Georgia, serif;*/
   font-family: "BIZ UDPMincho", serif, "Cinzel", "Coustard", serif;
   height: 80px;
   font-size: 100px;
@@ -203,11 +213,26 @@ margin-right: auto;
 }
 .footer{
   height:170px;
-background-image: linear-gradient(-90deg, #BF0005, #111111);
+  background-image: linear-gradient(-90deg, #BF0005, #111111);
   display: flex;
-  justify-content: space-between;
   color: white;
   font-family: 'Montserrat';
   position: relative;
+}
+
+.footer .logof img{
+  margin-left: 15px;
+	margin-top: 15px;
+	width: 150px;
+}
+
+.footer .informacion{
+  text-align: center;
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 25px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 100px;
 }
 
