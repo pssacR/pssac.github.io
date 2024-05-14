@@ -200,3 +200,74 @@ html {
   width: 60%;
   border-radius: 100%;
 }
+/* BLOQUE 3 - PROMOCIONES */
+/* bloque 3 -  Precios y Promociones */
+
+.bloque3 {
+  background-image: url("../img/Fondo-claro.png");
+  background-size: contain;
+}
+
+.promociones {
+  width: 70%;
+  margin: 0 auto; /* Centrar horizontalmente */
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: center; /* Ajustar el contenido al centro */
+  align-items: center; /* Centrar verticalmente */
+}
+
+.tablas-promos h3 {
+  color: #fff;
+  padding-bottom: 10px;
+  font-size: 1.7vh;
+  max-width: 80%;
+  text-align: center;
+}
+.tablas-promos {
+  background-color: #ededed;
+  width: 90vw;
+  height: 35vh;
+  display: flex;
+  flex-direction: column;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+  transition: 0.3s;
+}
+
+.tablas-promos h3 {
+  color: #75040c;
+}
+
+.servicios .link-imagen:hover,
+.promociones .tablas-promos:hover {
+  background-color: #75040c;
+  font-size: 2vh;
+  color: #fff;
+}
+
+.tablas-promos:hover h3,
+.tablas-promos:hover th {
+  color: #fff;
+  font-size: 2vh;
+}
+
+.tablas-styles {
+  font-size: 1.5vh;
+  text-align: top;
+  align-items: center;
+}
+
+.tablas-styles td {
+  vertical-align: top;
+}
+
+.tablas-styles th {
+  color: #75040c;
+  font-size: 1.7vh;
+}
