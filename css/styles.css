@@ -98,36 +98,39 @@ html {
 }
 
 @media (max-width: 991px) {
-  .servicios {
-    width: 90%;
+  .testimonios{
+    width: 90%!important;
   }
-  .link-imagen h3 {
-    font-size: 19px;
+  .servicios{
+      width: 90%;
+  }
+  .link-imagen h3{
+      font-size: 19px;
   }
 }
-@media (max-width: 576px) {
+@media (max-width: 576px){
   .navbar {
-    height: 100px;
-  }
+      height:100px;
+  } 
   .navbar-logo img {
-    margin-left: 5px;
-    margin-top: 5px;
-    width: 100px;
+      margin-left: 5px;
+      margin-top: 5px;
+      width: 100px;
   }
-  .servicios {
-    width: 90%;
-    display: block;
-    clear: left;
-    clear: right;
+  .servicios{
+      width: 90%;
+      display: block;
+      clear: left;
+      clear: right;
   }
-  .link-imagen {
-    margin: 0px;
-    clear: left;
-    clear: right;
-    margin-bottom: 10px;
+  .link-imagen{
+      margin:0px;
+      clear: left;
+      clear: right;
+      margin-bottom: 10px;
   }
-  .link-imagen h3 {
-    font-size: 33px;
+  .link-imagen h3{
+      font-size: 33px;
   }
 }
 
@@ -160,46 +163,54 @@ html {
 .testimonios-fondo {
   margin-top: 50px;
   width: 100%;
-  height: 500px;
-  background-image: url("../img/foto-parallax.jpg");
+  height: 550px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/foto-parallax.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-.testimonios {
+
+.testimonios{
   width: 70%;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 50px;
-  display: flex;
+  padding-top: 20px;
   justify-content: space-between;
 }
-.t {
+.testimonios h3{
+	text-align: center;
+	margin-bottom: 5px;
+	font-size: 50px;
+	color: white;
+  font-family: 'Segoe Script';
+}
+.t{
   width: 30%;
-
-  margin-left: auto;
-  margin-right: auto;
-  padding: 30px;
-  background-color: #ededed;
-  box-shadow: 6px 6px 17px -6px rgba(52, 52, 56, 1);
+  height: 382px;
+  margin-left: 11px;
+  margin-right: 11px;
+  padding:30px;
+  background-color: #EDEDED;
+  box-shadow: 6px 6px 12px -5px rgb(26, 25, 25);
   border-top-left-radius: 40px;
   border-top-right-radius: 40px;
   border-bottom-left-radius: 40px;
   text-align: center;
-  font-family: "montserrat";
+  font-family:'montserrat';
+  float: left;
 }
-.t h4 {
-  /*font-family:Georgia, serif;*/
+.t h4{
   font-family: "BIZ UDPMincho", serif, "Cinzel", "Coustard", serif;
   height: 80px;
   font-size: 100px;
-  color: #8c888a;
+  color: #8C888A;
 }
-.t img {
+.t img{
   width: 60%;
-  border-radius: 100%;
+  border-radius: 100%; 
 }
+
 /* BLOQUE 3 - PROMOCIONES */
 /* bloque 3 -  Precios y Promociones */
 
@@ -271,3 +282,30 @@ html {
   color: #75040c;
   font-size: 1.7vh;
 }
+
+/* FOOTER */
+.footer{
+  height:170px;
+  background-image: linear-gradient(-90deg, #BF0005, #111111);
+  display: flex;
+  color: white;
+  font-family: 'Montserrat';
+  position: relative;
+}
+
+.footer .logof img{
+  margin-left: 15px;
+	margin-top: 15px;
+	width: 150px;
+}
+
+.footer .informacion{
+  text-align: center;
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 25px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 100px;
+}
+
