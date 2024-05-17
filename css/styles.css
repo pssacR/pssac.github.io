@@ -98,39 +98,39 @@ html {
 }
 
 @media (max-width: 991px) {
-  .testimonios{
-    width: 90%!important;
+  .testimonios {
+    width: 90% !important;
   }
-  .servicios{
-      width: 90%;
+  .servicios {
+    width: 90%;
   }
-  .link-imagen h3{
-      font-size: 19px;
+  .link-imagen h3 {
+    font-size: 19px;
   }
 }
-@media (max-width: 576px){
+@media (max-width: 576px) {
   .navbar {
-      height:100px;
-  } 
+    height: 100px;
+  }
   .navbar-logo img {
-      margin-left: 5px;
-      margin-top: 5px;
-      width: 100px;
+    margin-left: 5px;
+    margin-top: 5px;
+    width: 100px;
   }
-  .servicios{
-      width: 90%;
-      display: block;
-      clear: left;
-      clear: right;
+  .servicios {
+    width: 90%;
+    display: block;
+    clear: left;
+    clear: right;
   }
-  .link-imagen{
-      margin:0px;
-      clear: left;
-      clear: right;
-      margin-bottom: 10px;
+  .link-imagen {
+    margin: 0px;
+    clear: left;
+    clear: right;
+    margin-bottom: 10px;
   }
-  .link-imagen h3{
-      font-size: 33px;
+  .link-imagen h3 {
+    font-size: 33px;
   }
 }
 
@@ -164,51 +164,52 @@ html {
   margin-top: 50px;
   width: 100%;
   height: 550px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/foto-parallax.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../img/foto-parallax.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.testimonios{
+.testimonios {
   width: 70%;
   margin-left: auto;
   margin-right: auto;
   padding-top: 20px;
   justify-content: space-between;
 }
-.testimonios h3{
-	text-align: center;
-	margin-bottom: 5px;
-	font-size: 50px;
-	color: white;
-  font-family: 'Segoe Script';
+.testimonios h3 {
+  text-align: center;
+  margin-bottom: 5px;
+  font-size: 50px;
+  color: white;
+  font-family: "Segoe Script";
 }
-.t{
+.t {
   width: 30%;
   height: 382px;
   margin-left: 11px;
   margin-right: 11px;
-  padding:30px;
-  background-color: #EDEDED;
+  padding: 30px;
+  background-color: #ededed;
   box-shadow: 6px 6px 12px -5px rgb(26, 25, 25);
   border-top-left-radius: 40px;
   border-top-right-radius: 40px;
   border-bottom-left-radius: 40px;
   text-align: center;
-  font-family:'montserrat';
+  font-family: "montserrat";
   float: left;
 }
-.t h4{
+.t h4 {
   font-family: "BIZ UDPMincho", serif, "Cinzel", "Coustard", serif;
   height: 80px;
   font-size: 100px;
-  color: #8C888A;
+  color: #8c888a;
 }
-.t img{
+.t img {
   width: 60%;
-  border-radius: 100%; 
+  border-radius: 100%;
 }
 
 /* BLOQUE 3 - PROMOCIONES */
@@ -284,22 +285,22 @@ html {
 }
 
 /* FOOTER */
-.footer{
-  height:170px;
-  background-image: linear-gradient(-90deg, #BF0005, #111111);
+.footer {
+  height: 170px;
+  background-image: linear-gradient(-90deg, #bf0005, #111111);
   display: flex;
   color: white;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   position: relative;
 }
 
-.footer .logof img{
+.footer .logof img {
   margin-left: 15px;
-	margin-top: 15px;
-	width: 150px;
+  margin-top: 15px;
+  width: 150px;
 }
 
-.footer .informacion{
+.footer .informacion {
   text-align: center;
   display: flex;
   align-items: flex-end;
@@ -309,3 +310,65 @@ html {
   padding-right: 100px;
 }
 
+/* bloque 4 -  Carrousel */
+
+#bloque4 {
+  background-color: #c9c9c9;
+  flex-direction: row;
+  padding-bottom: 2vh;
+  padding-top: 2vh;
+}
+
+.carrusel {
+  width: 80%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.carrusel-imagenes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carrusel-imagenes img {
+  width: 18%;
+  height: auto;
+  margin-bottom: 12px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  margin-right: 2%;
+}
+
+.carrusel-imagenes img:last-child {
+  margin-right: 0; /* Eliminar el margen derecho de la última imagen */
+}
+
+.carrusel-imagenes img:nth-child(3) {
+  width: 20%;
+}
+
+.carrusel-botones {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.material-symbols-outlined {
+  font-size: 24px;
+  vertical-align: middle;
+  color: #bf0005; /* Color del ícono */
+  margin: 0 5px;
+}
+
+#boton-anterior,
+#boton-siguiente {
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
