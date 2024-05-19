@@ -11,6 +11,9 @@ html {
   margin: 0px;
   padding: 0px;
 }
+body{
+  background-color: #C9C9C9;
+}
 .navbar {
   height: 170px;
   background-image: linear-gradient(-90deg, #111111, #bf0005);
@@ -371,4 +374,86 @@ html {
   padding: 0;
   background-color: transparent;
   cursor: pointer;
+}
+
+/*PÁGINA 2*/
+/*Slider*/
+
+.slider{
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  height: 450px;
+  background-image: linear-gradient(90deg,#2C2324, rgba(0, 0, 0, 0)),
+    url("../img/slider-manicura.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color:#C9C9C9;
+}
+
+.titulo-slide{
+  width: 50%;
+}
+.slider .titulo-slide h1{
+  font-size: 50px;
+  margin-top: 3%;
+  line-height:10dvh;
+  font-family: "Montserrat black";
+  text-shadow: 4px 3px 15px #2C2324;
+}
+
+.slider .titulo-slide h4{
+  font-size: 18px;
+  font-family: "Montserrat";
+}
+
+/*Articulo manicura*/
+.manicura{
+  width: 80%;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+.row{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.foto-m {
+  width: 90%;
+  height: 300px;
+  transition: 1s;
+}
+.manicura img {
+  object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    transition: .5s ease-in-out;
+}
+.foto-m:hover {
+  filter: opacity(.5);
+}
+.info-m{
+  width: 90%;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 5%;
+  padding-left: 5%;
+  color: #2E2829;
+  font-family: "Montserrat";
+  font-size:1.5vw; 
+  line-height:5dvh; 
+}
+.info-m h4{
+  font-family: "Segoe Script";
+  font-size: 1.8vw;
+  padding-bottom: 10px;
+  text-align: center;
 }
