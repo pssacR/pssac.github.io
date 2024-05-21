@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="shortcut icon" href="img/favicon.png" type="image/png" />
+    <enlace rel="hoja de estilo" href="css/normalize.css"></enlace>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Segoe Script"
+      rel="stylesheet"
+    />
+      <!-- flechas del carrusel-->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>Maktub Hairstyle</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar-logo">
+        <img src="img/logo-blanco.png" alt="Logo de la peluquería" />
+      </div>
+      <div class="navbar-links">
+        <ul>
+          <li><a href="#Inicio">Inicio</a></li>
+          <li><a href="#Servicios">Servicios</a></li>
+          <li><a href="#Promociones">Promociones</a></li>
+          <li><a href="#Testimonios">Testimonios</a></li>
+          <li><a href="#Turnos">Promociones</a></li>
+          <li><a href="#Contacto">Contacto</a></li>
+        </ul>
+      </div>
+      <div class="navbar-social">
+        <a href="https://www.instagram.com/maktubhairstyle/" class="social-icon"
+          ><i class="fab fa-instagram"></i
+        ></a>
+        <a
+          href="https://www.facebook.com/profile.php?id=100063645546059"
+          class="social-icon"
+          ><i class="fab fa-facebook"></i
+        ></a>
+      </div>
+    </nav>
+    <section class="slider-turnos">
+      <div class="titulo-slide">
+        <h1>Lorem ipsum nonummy nibh tincidunt ut laoreet.</h1>
+        <h4>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.</h4>
+      </div>
+    </section>
+    <section class="formulario">
+      <h2>Turnos online</h2>
+      <form class="form" onsubmit="return validar()">
+        <div class="input-fila">
+          <input id="txtNombre" autocomplete="off" placeholder="Nombre completo" type="text"/>       
+          <input id="txtTel" autocomplete="off" placeholder="Telefono" type="tel"/><br/>
+        </div>
+        <input id="txtMail" autocomplete="off" placeholder="Email" type="email" /><br/>
+        <div class="input-fila">
+          <input placeholder="Escoge el servicio" list="Servicio" name="Servicios">
+          <datalist id="Servicio">
+            <option value="peluquería">
+            <option value="Manicuría">
+            <option value="Cejas y pestañas">
+          </datalist>
+        </div>
+        <textarea rows="4" cols="50"></textarea><br/>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+    <!-- B7 - FOOTER -->
+    <footer class="footer">
+      <div class="logof">
+        <img src="img/logo-footer.png" alt="Logo de la peluquería" />
+      </div>
+      <div class="informacion">
+        <p>
+          <b>PELUQUERIA Y ESTÉTICA</b><br />Estilista profesional | Colorista |
+          Maquilladora Profesional | Servicio de cejas y pestañas
+        </p>
+      </div>
+      <div class="navbar-social">
+        <a href="https://www.instagram.com/maktubhairstyle/" class="social-icon"
+          ><i class="fab fa-instagram"></i
+        ></a>
+        <a
+          href="https://www.facebook.com/profile.php?id=100063645546059"
+          class="social-icon"
+          ><i class="fab fa-facebook"></i
+        ></a>
+      </div>
+    </footer>
+  </body>
+</html>

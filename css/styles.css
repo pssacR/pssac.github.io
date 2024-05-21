@@ -395,7 +395,7 @@ body{
 .titulo-slide{
   width: 50%;
 }
-.slider .titulo-slide h1{
+.titulo-slide h1{
   font-size: 50px;
   margin-top: 3%;
   line-height:10dvh;
@@ -403,7 +403,7 @@ body{
   text-shadow: 4px 3px 15px #2C2324;
 }
 
-.slider .titulo-slide h4{
+.titulo-slide h4{
   font-size: 18px;
   font-family: "Montserrat";
 }
@@ -457,3 +457,74 @@ body{
   padding-bottom: 10px;
   text-align: center;
 }
+.slider-turnos{
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  height: 450px;
+  background-image: linear-gradient(90deg, #ADA5A5, rgba(0, 0, 0, 0.418)),
+    url("../img/slider-turnos.jpg");
+  background-position: 100% 70%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color:#525050cc;
+}
+
+.slider-turnos .titulo-slide h1{
+  text-shadow: none;
+}
+
+.formulario{
+  margin-top: 80px;
+  background-color: #2e2829;
+  width: 70%;
+  height: 90vh;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 40px;
+  background-image: linear-gradient(90deg,#0e0c0c, #bf000638),
+  url("../img/fondo-formulario-10.png");
+  background-position: 100% 0%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 50px;
+}
+.formulario h2{
+  color: #8c888a;
+  font-size: 45px;
+  margin-top: 3%;
+  line-height:10dvh;
+  font-family: "Montserrat black";
+  text-shadow: 4px 3px 15px #2C2324;
+}
+  .form input, textarea{
+    border-radius: 30px;
+    margin: 3px 5px;
+    padding: 10px;
+    background-color: #b9b8b8;
+    opacity: .1;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 41vw;
+    text-align: center;
+    border: none;
+  }
+  .input-fila {
+    display: flex;
+  }
+  .input-fila input{
+    width: 20vw;
+  }
+  ::placeholder {
+    color:white;
+  }
+  .form button{
+    border-radius: 30px;
+    background-color: #75040c;
+    padding: 10px;
+    color: #ADA5A5;
+    border: none;
+  }
+  .error {
+  border: 2px solid red;
+  }
