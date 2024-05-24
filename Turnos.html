@@ -29,12 +29,12 @@
       </div>
       <div class="navbar-links">
         <ul>
-          <li><a href="#Inicio">Inicio</a></li>
+          <li><a href="index.html">Inicio</a></li>
           <li><a href="#Servicios">Servicios</a></li>
           <li><a href="#Promociones">Promociones</a></li>
+          <li><a href="#bloque4">Galeria</a></li>
           <li><a href="#Testimonios">Testimonios</a></li>
-          <li><a href="#Turnos">Promociones</a></li>
-          <li><a href="#Contacto">Contacto</a></li>
+          <li><a href="Turnos.html">Turnos</a></li>
         </ul>
       </div>
       <div class="navbar-social">
@@ -50,29 +50,30 @@
     </nav>
     <section class="slider-turnos">
       <div class="titulo-slide">
-        <h1>Lorem ipsum nonummy nibh tincidunt ut laoreet.</h1>
-        <h4>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.</h4>
+        <h1>Resalta tu belleza y estilo único con un buen cambio de look</h1>
+        <h4>¡No esperes más para darle a tu cabello el cuidado que se merece!</h4>
       </div>
     </section>
     <section class="formulario">
       <h2>Turnos online</h2>
       <form class="form" onsubmit="return validar()">
+        <input id="txtNombre" autocomplete="false" placeholder="Nombre completo" type="text"/>      
+        <input id="txtMail" placeholder="Email"  type="email" autocomplete="false"/><br/>
         <div class="input-fila">
-          <input id="txtNombre" autocomplete="off" placeholder="Nombre completo" type="text"/>       
-          <input id="txtTel" autocomplete="off" placeholder="Telefono" type="tel"/><br/>
-        </div>
-        <input id="txtMail" autocomplete="off" placeholder="Email" type="email" /><br/>
-        <div class="input-fila">
-          <input placeholder="Escoge el servicio" list="Servicio" name="Servicios">
-          <datalist id="Servicio">
+          <input id="numTel"  placeholder="Telefono" type="tel"/>
+          <input placeholder="Servicio" list="servicios" name="select" id="select">
+          <datalist id="servicios">
             <option value="peluquería">
             <option value="Manicuría">
             <option value="Cejas y pestañas">
-          </datalist>
+          </datalist>   
         </div>
-        <textarea rows="4" cols="50"></textarea><br/>
+        <textarea id="txtArea" rows="4" cols="50" placeholder="Escribe los detalles del servicio que querés"></textarea><br/>
         <button type="submit">Enviar</button>
       </form>
+      
+      <ul id="ltaErrores"></ul>
+      <ol id="ltaMensajes"></ol>
     </section>
     <!-- B7 - FOOTER -->
     <footer class="footer">
@@ -96,5 +97,7 @@
         ></a>
       </div>
     </footer>
+    <script src="formulario.js"></script>
   </body>
+ 
 </html>

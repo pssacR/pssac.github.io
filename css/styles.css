@@ -462,8 +462,7 @@ body{
   margin-right: auto;
   padding: 20px;
   height: 450px;
-  background-image: linear-gradient(90deg, #ADA5A5, rgba(0, 0, 0, 0.418)),
-    url("../img/slider-turnos.jpg");
+  background-image: linear-gradient(90deg, #ADA5A5, rgba(0, 0, 0, 0.418)), url("../img/slider-turnos.jpg");
   background-position: 100% 70%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -475,39 +474,51 @@ body{
 }
 
 .formulario{
-  margin-top: 80px;
+  margin: 80px 0px 80px 0px;
   background-color: #2e2829;
-  width: 70%;
-  height: 90vh;
+  width: 70%;  
   margin-left: auto;
   margin-right: auto;
   border-radius: 40px;
   background-image: linear-gradient(90deg,#0e0c0c, #bf000638),
-  url("../img/fondo-formulario-10.png");
-  background-position: 100% 0%;
+  url("../img/fondo-formulario.png");
+  background-position: 100% 50%;
   background-size: cover;
   background-repeat: no-repeat;
   padding: 50px;
+  font-family: "Montserrat";
+}
+form{
+  width: 70%;
 }
 .formulario h2{
   color: #8c888a;
   font-size: 45px;
-  margin-top: 3%;
+  margin: 0% 0% 2% 2%;
   line-height:10dvh;
   font-family: "Montserrat black";
   text-shadow: 4px 3px 15px #2C2324;
 }
   .form input, textarea{
-    border-radius: 30px;
+    border-radius: 20px;
     margin: 3px 5px;
-    padding: 10px;
-    background-color: #b9b8b8;
-    opacity: .1;
+    padding: 15px;
+    background-color: #3b272846;
     margin-top: 10px;
     margin-bottom: 10px;
-    width: 41vw;
+    margin-left: 0px;
+    margin-right: 10px;
     text-align: center;
-    border: none;
+    border: 0px solid rgba(141, 4, 4, 0);
+    width: 41vw;
+    resize: none;
+    color:rgb(153, 122, 122);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-weight: bolder;
+  }
+  .form input .autocomplete-active {
+    background-color:  #3b272846;
   }
   .input-fila {
     display: flex;
@@ -515,16 +526,28 @@ body{
   .input-fila input{
     width: 20vw;
   }
-  ::placeholder {
-    color:white;
-  }
   .form button{
-    border-radius: 30px;
-    background-color: #75040c;
-    padding: 10px;
-    color: #ADA5A5;
+    width: 41vw;
+    border-radius: 20px;
+    background-image: linear-gradient(-90deg, #9e7878, #4e2929);
+    padding: 15px;
+    color: #1f0505;
     border: none;
+    font-size: 16px;
+    font-family: "Montserrat black";
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-weight: bolder;
   }
   .error {
-  border: 2px solid red;
+    border: 2px solid rgb(141, 4, 4)!important;
+  }
+  .formulario ul{
+    margin-top: 10px;
+    color: #c21e1e;
+    font-weight: bolder;
+  }
+  .formulario ol{
+    list-style: none;
+    color: #ffffff;
   }
