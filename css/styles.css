@@ -15,19 +15,22 @@ body {
   background-color: #c9c9c9;
 }
 .navbar {
-  height: auto; /*estaba en 170px*/
-  padding-bottom: 1em;
+  height: 170px;
   background-image: linear-gradient(-90deg, #111111, #bf0005);
-  display: flex;
   justify-content: space-between;
   color: white;
   font-family: "Montserrat";
-  position: relative;
+  width: 100%;
+  top:0;
+  transition: 0.1s;
+  position: fixed;
+  z-index: 100;
 }
 .navbar-logo img {
-  margin-left: 3em;
-  margin-top: 1em;
+  margin-left: 1.5em;
+  margin-top: 0.5em;
   width: 10em;
+  transition: 0.2s;
 }
 
 .navbar-links {
@@ -57,7 +60,6 @@ body {
 .navbar-links a:hover {
   text-decoration: underline;
   text-decoration-thickness: 0.2em;
-  font-size: 2vw;
 }
 
 .navbar-social {
@@ -75,6 +77,7 @@ body {
   align-items: start;
   justify-content: center;
   text-decoration: none;
+  color: white;
 }
 
 .social-icon i {
@@ -111,6 +114,7 @@ body {
 /* servicios */
 
 .servicios {
+  margin-top: 180px;
   width: 70%;
   margin-left: auto;
   margin-right: auto;
@@ -221,7 +225,7 @@ body {
   width: 100%;
   text-align: center;
   margin-bottom: 20px;
-  font-size: 2rem;
+  font-size: 3rem;
   color: white;
   font-family: "Segoe Script";
 }
@@ -239,7 +243,8 @@ body {
 }
 .t h4 {
   font-family: "BIZ UDPMincho", serif, "Cinzel", "Coustard", serif;
-  font-size: 3rem;
+  font-size: 100px; /*No se tiene que achicar por eso es px*/
+  height: 80px;
   color: #8c888a;
 }
 .t img {
@@ -270,9 +275,7 @@ body {
     width: 90%;
     margin: 5% auto;
   }
-  .t h4 {
-    font-size: 2rem;
-  }
+
   .t p {
     font-size: 0.875rem;
   }
@@ -287,7 +290,7 @@ body {
 }
 
 .promociones {
-  width: 90%;
+  width: 70%;
   margin: 0 auto; /* Centrar horizontalmente */
   padding-top: 30px;
   padding-bottom: 30px;
@@ -298,17 +301,16 @@ body {
 }
 
 .tablas-promos {
-  background-color: #ededed;
+  background-color:#C9C9C9;
   width: 100%;
   display: flex;
   flex-direction: column;
   border-top-left-radius: 40px;
   border-top-right-radius: 40px;
   border-bottom-left-radius: 40px;
-
   padding: 20px;
-
   transition: 0.3s;
+  transition: 0.2s;
 }
 
 .tablas-promos h3 {
@@ -316,6 +318,9 @@ body {
   padding-bottom: 10px;
   text-align: center;
   margin-bottom: 20px;
+  font-size: 3em;
+  font-family: "Segoe Script";
+  transition: 0.2s;
 }
 .tablas-styles {
   display: flex;
@@ -323,19 +328,20 @@ body {
   flex-wrap: wrap;
 }
 
-.tabla {
+.tabla {/*
   background-color: #fff;
-  border-radius: 20px;
+  border-radius: 20px;*/
   padding: 10px;
-  margin: 10px;
   width: 30%;
   min-width: 250px;
+  font-family: "Montserrat";
+  transition: 0.2s;
 }
 
 .tabla h4 {
-  color: #75040c;
   text-align: center;
   margin-bottom: 10px;
+  font-size: 1.5em;
 }
 
 .tabla table {
@@ -348,23 +354,14 @@ body {
 }
 
 .promociones .tablas-promos:hover {
-  background-color: #75040c;
-  color: #75040c;
+  background-color: #ffffff;
+  box-shadow: 6px 6px 12px -5px rgb(26, 25, 25);
 }
 
 .tabla:hover {
-  background-color: #a38e8e;
-  color: #fff;
+  color: #75040c;
 }
 
-.tablas-promos:hover h3,
-.tablas-promos:hover th {
-  color: #fff;
-}
-
-.tablas-promos:hover h4 {
-  color: #000;
-}
 @media (max-width: 568px) {
   .tablas-styles {
     flex-direction: column;
@@ -492,10 +489,10 @@ body {
 }
 
 .contacto {
+  width: 100%;
   background-color: #ededed;
   padding: 1em;
   border-radius: 40px;
-  width: 70%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -550,7 +547,7 @@ body {
   padding-top: 1em;
 }
 
-.social-icon {
+.redes-sociales a{
   color: #000;
   font-size: 1.5em;
 }
@@ -573,7 +570,58 @@ body {
 }
 
 /*Articulo manicura*/
-.manicura {
+/*PÁGINA 2*/
+/*Slider*/
+
+.slider{
+  margin-top: 160px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-top: 40px;
+  height: 450px;
+  background-image: linear-gradient(90deg,#2C2324, rgba(0, 0, 0, 0)),
+    url("../img/slider-manicura.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color:#C9C9C9;
+}
+
+.titulo-slide{
+  width: 50%;
+}
+.titulo-slide h1{
+  font-size: 3em;
+  margin-top: 3%;
+  line-height:10dvh;
+  font-family: "Montserrat black";
+  text-shadow: 4px 3px 15px #2C2324;
+}
+.titulo-slide a{
+  font-family: "Montserrat";
+  border-radius: 10px;
+  padding: 14px 10px;
+  text-decoration: none;
+  color: #fff;
+  background-color:#75040c91;
+  float:inline-start;
+  margin-top: 20px;
+  transition: 0.2s;
+}
+
+.titulo-slide a:hover{
+  background-color:#C9C9C9;
+  color: #1f0505;
+}
+
+.titulo-slide h4{
+  font-size: 18px;
+  font-family: "Montserrat";
+}
+
+/*Articulo manicura*/
+.manicura{
   width: 80%;
   height: 600px;
   margin-left: auto;
@@ -581,7 +629,7 @@ body {
   margin-top: 80px;
   margin-bottom: 80px;
 }
-.row {
+.row{
   display: flex;
   justify-content: space-between;
   margin-bottom: 30px;
@@ -593,127 +641,147 @@ body {
 }
 .manicura img {
   object-fit: cover;
-  width: 100%;
-  height: 100%;
-  border-top-left-radius: 40px;
-  border-top-right-radius: 40px;
-  border-bottom-left-radius: 40px;
-  transition: 0.5s ease-in-out;
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    transition: .5s ease-in-out;
 }
 .foto-m:hover {
-  filter: opacity(0.5);
+  filter: opacity(.5);
 }
-.info-m {
+.info-m{
   width: 90%;
   height: 300px;
   margin-left: auto;
   margin-right: auto;
   padding-right: 5%;
   padding-left: 5%;
-  color: #2e2829;
+  color: #2E2829;
   font-family: "Montserrat";
-  font-size: 1.5vw;
-  line-height: 5dvh;
+  font-size:1.5vw; 
+  line-height:5dvh; 
 }
-.info-m h4 {
+.info-m h4{
   font-family: "Segoe Script";
   font-size: 1.8vw;
   padding-bottom: 10px;
   text-align: center;
 }
-.slider-turnos {
+.slider-turnos{
+  margin-top: 160px;
   margin-left: auto;
   margin-right: auto;
-  padding: 20px;
-  height: 450px;
-  background-image: linear-gradient(90deg, #ada5a5, rgba(0, 0, 0, 0.418)),
-    url("../img/slider-turnos.jpg");
+  padding-left: 20px;
+  padding-top: 40px;
+  height: 470px;
+  background-image: linear-gradient(90deg, #ADA5A5, rgba(0, 0, 0, 0.418)), url("../img/slider-turnos.jpg");
   background-position: 100% 70%;
   background-repeat: no-repeat;
   background-size: cover;
-  color: #525050cc;
+  color:#525050cc;
 }
 
-.slider-turnos .titulo-slide h1 {
+.slider-turnos .titulo-slide h1{
   text-shadow: none;
 }
 
-.formulario {
+.formulario{
   margin: 80px 0px 80px 0px;
   background-color: #2e2829;
-  width: 70%;
+  width: 70%;  
   margin-left: auto;
   margin-right: auto;
   border-radius: 40px;
-  background-image: linear-gradient(90deg, #0e0c0c, #bf000638),
-    url("../img/fondo-formulario.png");
+  background-image: linear-gradient(90deg,#0e0c0c, #bf000638),
+  url("../img/fondo-formulario.png");
   background-position: 100% 50%;
   background-size: cover;
   background-repeat: no-repeat;
   padding: 50px;
   font-family: "Montserrat";
 }
-form {
+form{
   width: 70%;
 }
-.formulario h2 {
+
+.formulario h2{
   color: #8c888a;
   font-size: 45px;
   margin: 0% 0% 2% 2%;
-  line-height: 10dvh;
+  line-height:10dvh;
   font-family: "Montserrat black";
-  text-shadow: 4px 3px 15px #2c2324;
+  text-shadow: 4px 3px 15px #2C2324;
 }
-.form input,
-textarea {
-  border-radius: 20px;
-  margin: 3px 5px;
-  padding: 15px;
-  background-color: #3b272846;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-left: 0px;
-  margin-right: 10px;
-  text-align: center;
-  border: 0px solid rgba(141, 4, 4, 0);
-  width: 41vw;
-  resize: none;
-  color: rgb(153, 122, 122);
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  font-weight: bolder;
-}
-.form input .autocomplete-active {
-  background-color: #3b272846;
-}
-.input-fila {
-  display: flex;
-}
-.input-fila input {
-  width: 20vw;
-}
-.form button {
-  width: 41vw;
-  border-radius: 20px;
-  background-image: linear-gradient(-90deg, #9e7878, #4e2929);
-  padding: 15px;
-  color: #1f0505;
-  border: none;
-  font-size: 16px;
-  font-family: "Montserrat black";
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  font-weight: bolder;
-}
-.error {
-  border: 2px solid rgb(141, 4, 4) !important;
-}
-.formulario ul {
-  margin-top: 10px;
-  color: #c21e1e;
-  font-weight: bolder;
-}
-.formulario ol {
-  list-style: none;
-  color: #ffffff;
-}
+  .form input, textarea{
+    border-radius: 20px;
+    margin: 3px 5px;
+    padding: 15px;
+    background-color: #3b272846;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 10px;
+    text-align: center;
+    border: 0px solid rgba(141, 4, 4, 0);
+    width: 41vw;
+    resize: none;
+    color:rgb(153, 122, 122);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-weight: bolder;
+  }
+  .form input .autocomplete-active {
+    background-color:  #3b272846;
+  }
+  .input-fila {
+    display: flex;
+  }
+  .input-fila input{
+    width: 20vw;
+  }
+  .form button{
+    width: 41vw;
+    border-radius: 20px;
+    background-image: linear-gradient(-90deg, #9e7878, #4e2929);
+    padding: 15px;
+    color: #1f0505;
+    border: none;
+    font-size: 16px;
+    font-family: "Montserrat black";
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-weight: bolder;
+  }
+  @media (max-width: 576px) {
+    .titulo-slide{
+      width: 100%;
+    }
+
+    .formulario{
+      width: 90%;
+    }
+    form{
+      width: 100%;
+    }
+    .form input, textarea{
+      width: 100%;
+    }
+    .input-fila input{
+      width: 50%;
+    }
+  }
+  .error {
+    border: 2px solid rgb(141, 4, 4)!important;
+  }
+  .formulario ul{
+    margin-top: 10px;
+    color: #c21e1e;
+    font-weight: bolder;
+  }
+  .formulario ol{
+    list-style: none;
+    color: #ffffff;
+  }
+

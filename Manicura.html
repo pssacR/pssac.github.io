@@ -23,21 +23,21 @@
     <title>Maktub Hairstyle</title>
   </head>
   <body>
-    <nav class="navbar">
+    <nav class="navbar" id="navbar">
       <div class="navbar-logo">
-        <img src="img/logo-blanco.png" alt="Logo de la peluquería" />
+        <img id="logo" src="img/logo-blanco.png" alt="Logo de la peluquería" />
       </div>
-      <div class="navbar-links">
+      <div class="navbar-links" >
         <ul>
           <li><a href="index.html">Inicio</a></li>
-          <li><a href="#Servicios">Servicios</a></li>
-          <li><a href="#Promociones">Promociones</a></li>
-          <li><a href="#bloque4">Galeria</a></li>
-          <li><a href="#Testimonios">Testimonios</a></li>
+          <li><a href="index.html#Servicios">Servicios</a></li>
+          <li><a href="index.html#Promociones">Promociones</a></li>
+          <li><a href="index.html#bloque4">Galeria</a></li>
+          <li><a href="index.html#Testimonios">Testimonios</a></li>
           <li><a href="Turnos.html">Turnos</a></li>
         </ul>
       </div>
-      <div class="navbar-social">
+      <div class="navbar-social" id="navbar-social">
         <a href="https://www.instagram.com/maktubhairstyle/" class="social-icon"
           ><i class="fab fa-instagram"></i
         ></a>
@@ -50,9 +50,12 @@
     </nav>
     <section class="slider">
       <div class="titulo-slide">
-        <h1>Lorem ipsum nonummy nibh tincidunt ut laoreet.</h1>
-        <h4>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.</h4>
-      </div>
+        <h1>Descubre la Elegancia en tus Manos</h1>
+        <h4>¡Embellece tus manos hoy mismo!
+          ¿Listo para lucir unas manos impecables y radiantes?</h4>
+        <a href="Turnos.html" target="_blank">QUIERO UN TURNO</a>
+        </div>
+
     </section>
     <article class="manicura">
       <div class="row">
@@ -95,4 +98,21 @@
       </div>
     </footer>
   </body>
+  <script>
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 70 || document.documentElement.scrollTop > 70) {
+        document.getElementById("navbar").style.height ="70px";
+        
+        document.getElementById("logo").style.width ="60px";
+        document.getElementById("navbar-social").style.display="none";
+      } else {
+        document.getElementById("navbar-social").style.display="block";
+        document.getElementById("navbar").style.height ="180px";
+        document.getElementById("logo").style.width ="170px";
+        
+      }
+    }
+  </script>
 </html>
