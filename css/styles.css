@@ -718,7 +718,7 @@ form{
     border-radius: 20px;
     margin: 3px 5px;
     padding: 15px;
-    background-color: #3b272846;
+    background-color: #3b272846!important;
     margin-top: 10px;
     margin-bottom: 10px;
     margin-left: 0px;
@@ -732,9 +732,13 @@ form{
     text-transform: uppercase;
     font-weight: bolder;
   }
-  .form input .autocomplete-active {
-    background-color:  #3b272846;
-  }
+
+/* Deshabilita el color del autocompletar */
+input:-webkit-autofill {
+  -webkit-text-fill-color: var( #3b272846) !important;
+  transition: background-color 5000s ease-in-out 0s, color 5000s ease-in-out 0s;
+}
+
   .input-fila {
     display: flex;
   }
