@@ -14,6 +14,9 @@ html {
 body {
   background-color: #c9c9c9;
 }
+
+/*Navbar*/
+
 .navbar {
   height: 170px;
   background-image: linear-gradient(-90deg, #111111, #bf0005);
@@ -132,6 +135,8 @@ body {
   background-color: #75040c;
   font-size: 2vh;
   color: #fff;
+  -webkit-transform: perspective(305px) rotateX(10deg);
+  transform: perspective(350px) rotateX(10deg);
 }
 
 @media (max-width: 991px) {
@@ -172,7 +177,8 @@ body {
   border-top-right-radius: 40px;
   border-bottom-left-radius: 40px;
   text-align: center;
-  transition: 1s;
+  -webkit-transition: 1s linear;
+  transition: 1s linear;
 }
 
 .link-imagen h3 {
@@ -187,98 +193,6 @@ body {
 }
 .servicios .link-imagen:hover {
   background-color: #75040c;
-}
-
-/*  testimonios */
-
-.testimonios-fondo {
-  margin-top: 50px;
-  width: 100%;
-  /* height: 550px; */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../img/foto-parallax.jpg");
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.testimonios-contenedor {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.testimonios {
-  width: 70%;
-  margin: 0 auto;
-  padding-top: 2em;
-  padding-bottom: 2em;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  text-align: center;
-  margin: 2em;
-}
-.testimonios h3 {
-  width: 100%;
-  text-align: center;
-  margin-bottom: 20px;
-  font-size: 3rem;
-  color: white;
-  font-family: "Segoe Script";
-}
-.t {
-  width: 30%;
-  margin: 1%;
-  padding: 30px;
-  background-color: #ededed;
-  box-shadow: 6px 6px 12px -5px rgb(26, 25, 25);
-  border-top-left-radius: 40px;
-  border-top-right-radius: 40px;
-  border-bottom-left-radius: 40px;
-  text-align: center;
-  font-family: "montserrat";
-}
-.t h4 {
-  font-family: "BIZ UDPMincho", serif, "Cinzel", "Coustard", serif;
-  font-size: 100px; /*No se tiene que achicar por eso es px*/
-  height: 80px;
-  color: #8c888a;
-}
-.t img {
-  width: 60%;
-  border-radius: 50%;
-}
-
-.t p {
-  font-size: 1rem;
-}
-
-@media (max-width: 991px) {
-  .testimonios {
-    width: 90%;
-    justify-content: center;
-  }
-  .t {
-    width: 45%;
-  }
-}
-
-@media (max-width: 576px) {
-  .testimonios {
-    width: 100%;
-    display: block;
-  }
-  .t {
-    width: 90%;
-    margin: 5% auto;
-  }
-
-  .t p {
-    font-size: 0.875rem;
-  }
 }
 
 /* BLOQUE 3 - PROMOCIONES */
@@ -310,7 +224,6 @@ body {
   border-bottom-left-radius: 40px;
   padding: 20px;
   transition: 0.3s;
-  transition: 0.2s;
 }
 
 .tablas-promos h3 {
@@ -318,7 +231,7 @@ body {
   padding-bottom: 10px;
   text-align: center;
   margin-bottom: 20px;
-  font-size: 3em;
+  font-size: 3rem;
   font-family: "Segoe Script";
   transition: 0.2s;
 }
@@ -328,9 +241,7 @@ body {
   flex-wrap: wrap;
 }
 
-.tabla {/*
-  background-color: #fff;
-  border-radius: 20px;*/
+.tabla {
   padding: 10px;
   width: 30%;
   min-width: 250px;
@@ -371,32 +282,9 @@ body {
   .tabla {
     width: 80%;
   }
-}
-
-/* FOOTER */
-.footer {
-  height: 170px;
-  background-image: linear-gradient(-90deg, #bf0005, #111111);
-  display: flex;
-  color: white;
-  font-family: "Montserrat";
-  position: relative;
-}
-
-.footer .logof img {
-  margin-left: 15px;
-  margin-top: 15px;
-  width: 150px;
-}
-
-.footer .informacion {
-  text-align: center;
-  display: flex;
-  align-items: flex-end;
-  margin-bottom: 25px;
-  margin-right: auto;
-  margin-left: auto;
-  padding-right: 100px;
+  .tablas-promos h3 {
+    font-size: 2rem;
+  }
 }
 
 /* bloque 4 -  Carrousel */
@@ -472,54 +360,154 @@ body {
   }
 }
 
-/* contacto */
+/*  testimonios */
+
+.testimonios-fondo {
+  margin-top: 50px;
+  width: 100%;
+  /* height: 550px; */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../img/foto-parallax.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.testimonios-contenedor {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonios {
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: center;
+  margin: 2em;
+}
+.testimonios h3 {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 3rem;
+  color: white;
+  font-family: "Segoe Script";
+}
+.t {
+  width: 30%;
+  margin: 1%;
+  padding: 30px;
+  background-color: #ededed;
+  box-shadow: 6px 6px 12px -5px rgb(26, 25, 25);
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  text-align: center;
+  font-family: "montserrat";
+  -webkit-transition: 1s linear;
+  transition: 1s linear;
+}
+.t:hover{
+  -webkit-transform: perspective(305px) rotateX(10deg);
+  transform: perspective(350px) rotateX(10deg);
+}
+.t h4 {
+  font-family: "BIZ UDPMincho", serif, "Cinzel", "Coustard", serif;
+  font-size: 100px; /*No se tiene que achicar por eso es px*/
+  height: 80px;
+  color: #8c888a;
+}
+.t img {
+  width: 60%;
+  border-radius: 50%;
+}
+
+.t p {
+  font-size: 1rem;
+}
+
+@media (max-width: 991px) {
+  .testimonios {
+    width: 90%;
+    justify-content: center;
+  }
+  .t {
+    width: 45%;
+  }
+}
+
+@media (max-width: 576px) {
+  .testimonios {
+    width: 100%;
+    display: block;
+  }
+  .t {
+    width: 90%;
+    margin: 5% auto;
+  }
+
+  .t p {
+    font-size: 0.875rem;
+  }
+}
+
+
+
+
+/* Contacto */
 
 .bloque6 {
   background-image: url("../img/Fondo-oscuro.png");
   background-size: contain;
-  padding: 30px 0;
+  padding: 15vh 0;
 }
 
 .contacto-contenedor {
   width: 70%;
   margin: 0 auto;
   display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+  background-color: #ededed;
+  border-radius: 40px;
 }
 
 .contacto {
-  width: 100%;
-  background-color: #ededed;
-  padding: 1em;
-  border-radius: 40px;
-  display: flex;
+  width: 50%;
+  padding: 5vh 10vh;
   flex-direction: column;
   justify-content: space-around;
-  align-items: center;
+  color: #2C2324;
 }
 
 .contacto h3 {
-  color: #000;
+  font-family: "Segoe Script";
   font-size: 2em;
+  color: #75040c;
   justify-content: center;
   text-align: center;
 }
 
 .contacto p {
-  color: #bf0005;
-  margin: 10px 0;
+  margin: 2vh 0;
+  font-size: 19px;
+  font-family:"Montserrat";
+}
 
-  text-align: center;
+.contacto p i{
+  padding-right: 5px;
 }
 
 .mapa {
-  border: 1px solid #75040c;
-  border-radius: 40px;
-  padding: 1em;
-  margin-top: 1em;
-  width: 100%;
-  max-width: 400px;
+  align-items: flex-end;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+  width: 50%;
 }
 
 .mapa iframe {
@@ -529,45 +517,38 @@ body {
   border-radius: inherit;
 }
 
-.mapa:hover {
-  background-color: #75040c;
-  transition: background-color 0.3s ease;
+.redes-sociales a i{
+  color:#75040c;
+  font-size: 2.5em;
+  padding-right: 0.5em;
+  padding-top: 0.5em;
+  transition: all .4s ease;
 }
-
-.contacto-info {
-  width: 100%;
-  text-align: center;
+.redes-sociales a i:hover{
+  color:#bf0005;
+  padding-right: 0.8em;
+  padding-left: 0.3em;
+  transform: scale(1.3);
 }
-
-.social-icons {
-  display: flex;
-  flex-direction: row;
-  gap: 10px;
-  justify-content: center;
-  padding-top: 1em;
-}
-
-.redes-sociales a{
-  color: #000;
-  font-size: 1.5em;
-}
-
 @media (max-width: 768px) {
   .contacto-contenedor {
+    text-align: center;
     flex-direction: column;
-    align-items: center;
+    width: 90%;
   }
-
+  .contacto {
+    width: 100%;
+    padding: 1vh 5vh;
+  }
   .mapa {
-    margin-top: 2em;
-    max-width: 100%;
+    border-radius: 40px;
+    width: 100%;
+  }
+  .redes-sociales a i{
+    justify-content: center;
   }
 }
 
-.titulo-slide h4 {
-  font-size: 18px;
-  font-family: "Montserrat";
-}
 
 /*Articulo manicura*/
 /*PÁGINA 2*/
@@ -587,7 +568,10 @@ body {
   background-size: cover;
   color:#C9C9C9;
 }
-
+.titulo-slide h4 {
+  font-size: 18px;
+  font-family: "Montserrat";
+}
 .titulo-slide{
   width: 50%;
 }
@@ -598,7 +582,7 @@ body {
   font-family: "Montserrat black";
   text-shadow: 4px 3px 15px #2C2324;
 }
-.titulo-slide a{
+.titulo-slide a{/*BOTON*/
   font-family: "Montserrat";
   border-radius: 10px;
   padding: 14px 10px;
@@ -623,17 +607,17 @@ body {
 /*Articulo manicura*/
 .manicura{
   width: 80%;
-  height: 600px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 80px;
-  margin-bottom: 80px;
+  margin-top: 8vh;
+  margin-bottom: 8vh;
 }
 .row{
   display: flex;
   justify-content: space-between;
   margin-bottom: 30px;
 }
+
 .foto-m {
   width: 90%;
   height: 300px;
@@ -669,6 +653,65 @@ body {
   padding-bottom: 10px;
   text-align: center;
 }
+@media (max-width: 990px) {
+  .row{
+    margin-bottom: 0px;
+  }
+  .manicura img {
+    object-fit: cover;
+      width: 100%;
+      height: 70%;
+  }
+  .info-m{
+    padding-right: 2%;
+    padding-left: 2%;
+    line-height:3dvh; 
+  }
+  .cta .mensaje a{/*enlace*/
+    font-size: 16px;
+  }
+}
+
+/*Mensaje y foto CTA*/
+.cta{
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.cta .mensaje{
+  font-family: "Segoe Script";
+  font-size: 3vw;
+  margin-top: 2vh;
+  color:#2e2829;
+}
+.cta img{
+  width: 40%;
+}
+.cta a{/*enlace*/
+  font-family: "Montserrat";
+  font-weight: bolder;
+  font-size: 2rem;
+  text-decoration: none;
+  color:#1f0505;
+  margin-top: 10px;
+}
+.enlace-turno{
+  -webkit-transition: 0.5s linear;
+  transition: 0.5s linear;
+}
+.enlace-turno i{
+  font-size: 1.8rem;
+}
+.enlace-turno:hover{
+  color:#75040c;
+  -webkit-transform: translateX(20px);
+  transform: translateX(20px);
+}
+
+/*PAGINA 3:TURNOS*/
+
 .slider-turnos{
   margin-top: 160px;
   margin-left: auto;
@@ -686,6 +729,8 @@ body {
 .slider-turnos .titulo-slide h1{
   text-shadow: none;
 }
+
+/*FORMULARIO DE TURNOS*/
 
 .formulario{
   margin: 80px 0px 80px 0px;
@@ -733,8 +778,8 @@ form{
     font-weight: bolder;
   }
 
-/* Deshabilita el color del autocompletar */
-input:-webkit-autofill {
+
+input:-webkit-autofill {/* Deshabilita el color del autocompletar */
   -webkit-text-fill-color: var( #3b272846) !important;
   transition: background-color 5000s ease-in-out 0s, color 5000s ease-in-out 0s;
 }
@@ -776,6 +821,7 @@ input:-webkit-autofill {
       width: 50%;
     }
   }
+
   .error {
     border: 2px solid rgb(141, 4, 4)!important;
   }
@@ -788,4 +834,41 @@ input:-webkit-autofill {
     list-style: none;
     color: #ffffff;
   }
+
+  
+/* FOOTER */
+.footer {
+  background-image: linear-gradient(-90deg, #bf0005, #111111);
+  display: flex;
+  color: white;
+  font-family: "Montserrat";
+  position: relative;
+}
+
+.footer .logof img {
+  margin-left: 15px;
+  margin-top: 15px;
+  width: 150px;
+}
+
+.footer .informacion {
+  text-align: center;
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 25px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 100px;
+}
+
+@media (max-width: 576px) {
+  .footer .logof img{
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 60px;
+  }
+  .footer .informacion{
+    display: none;
+  }
+}
 
